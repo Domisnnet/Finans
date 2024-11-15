@@ -1,0 +1,89 @@
+
+/* Configuração do Site */
+
+
+#home {
+	background: #ffc107;
+	color: white;
+	margin-top: 62px;
+}
+
+#home .ajuste {
+	margin-left: 60px;
+}
+
+/* Navegação */
+
+nav.navbar-transparente {
+	padding: 15px 0;
+	background-color: #ffc107;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: black;
+}
+
+.navbar-light .navbar-toggler {
+	color: rgba(255, 255, 255, 0.5);
+	border-color: rgba(255, 255, 255, 0.5);
+}
+
+.divisor {
+	width: 1px;
+	background: white;
+	margin: 12px 15px;
+}
+
+.caixa {
+	padding: 50px 0;
+	border-bottom: 2px solid #e5e5e5;
+}
+
+p {
+	font-size: larger;
+}
+
+
+/* Rodapé */
+
+footer {
+	background: rgba(0, 0, 0, 0.9);
+	padding: 50px 0px 20px 0px;
+	position: relative;
+}
+
+footer h4 {
+	color: white;
+	font-size: 1em;
+	text-transform: uppercase;
+}
+
+footer .navbar-nav .media {
+	display: flex;
+	justify-content: center;
+}
+
+footer .navbar-nav a {
+	color: white;
+	font-size: 1em;
+	padding: 20px;
+}
+
+footer .navbar-nav a:hover {
+	color: #4c3a02;
+	text-decoration: none;
+}
+
+footer ul {
+	list-style: none;
+	padding: 20px;
+}
+
+footer ul li {
+	float: left;
+	margin: 0px;
+}
