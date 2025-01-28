@@ -27,6 +27,11 @@ nav.navbar-transparente {
 	font-weight: bolder;
 }
 
+.navbar-link:hover {
+	text-decoration: none;
+	color: white;
+}
+
 .navbar-light .navbar-nav .nav-link:hover {
 	color: black;
 	text-decoration: none;
@@ -63,6 +68,12 @@ footer {
 }
 
 footer #media {
+	display: flex;
+	margin-left: -15px;
+	padding-left: -0px;
+}
+
+footer #medias-sociais {
 	display: flex;
 	margin-left: -15px;
 	padding-left: -0px;
