@@ -1,7 +1,4 @@
 
-/* Configuração do Site */
-
-
 #home {
 	background: #ffc107;
 	color: white;
@@ -12,8 +9,6 @@
 	margin-left: 60px;
 }
 
-/* Navegação */
-
 nav.navbar-transparente {
 	padding: 15px 0;
 	background-color: #ffc107;
@@ -21,6 +16,7 @@ nav.navbar-transparente {
 
 .navbar-light .navbar-nav .nav-link {
 	color: white;
+	padding: 20px;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
@@ -30,6 +26,10 @@ nav.navbar-transparente {
 .navbar-light .navbar-toggler {
 	color: rgba(255, 255, 255, 0.5);
 	border-color: rgba(255, 255, 255, 0.5);
+	padding: 10px 10px;
+	margin: 20PX;
+	border-radius: 10px;
+	border-width: 2px;
 }
 
 .divisor {
@@ -46,9 +46,6 @@ nav.navbar-transparente {
 p {
 	font-size: larger;
 }
-
-
-/* Rodapé */
 
 footer {
 	background: rgba(0, 0, 0, 0.9);
