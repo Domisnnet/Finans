@@ -1,0 +1,18 @@
+
+@media (max-width: 767.98px) { 
+    #home .ajuste {
+        margin-left: 0; 
+    }
+    .caixa {
+        padding-top: 60px; 
+        padding-bottom: 60px;
+    }
+    #home {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    footer {
+        padding-top: 30px; 
+        padding-bottom: 10px;
+    }
+}
