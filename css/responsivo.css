@@ -16,3 +16,9 @@
         padding-bottom: 10px;
     }
 }
+
+@media (max-width: 767px) {
+    .navbar-brand {
+      padding: 20px;
+    }
+  }
