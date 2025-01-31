@@ -27,7 +27,7 @@ Bem-vindo ao Finans, a ferramenta que vai transformar a forma como você lida co
     *   **Configure Alertas:** Defina lembretes para contas a pagar e receber.
 
 3. **Acesse em Diversos Dispositivos:**
-    * **O Finans funciona:** no Celular, Tablet ou Desktops.
+    * **O Finans funciona:** no Celular, Tablet ou Desktop.
 
 ---
 ## ⚙️ Tecnologias Utilizadas
