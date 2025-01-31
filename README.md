@@ -19,7 +19,7 @@ Bem-vindo ao Finans, a ferramenta que vai transformar a forma como você lida co
 
     <div align="center">
         <a href="https://domisnnet.github.io/finans/">
-            <button style="background-color: #29ABE2; color: white; padding: 10px 20px; border: none; border-radius: 10px; cursor: pointer;">Cadastre-se</button>
+            <button type="button" class="btn btn-success">Cadastre-se</button>
         </a>
     </div>
 
