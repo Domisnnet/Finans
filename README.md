@@ -18,12 +18,10 @@ Bem-vindo ao Finans, a ferramenta que vai transformar a forma como você lida co
     Clique no botão abaixo para iniciar sua jornada com o Finans:
 
     <div align="center">
-        <a href="#cadastro">
+        <a href="https://domisnnet.github.io/finans/">
             <button style="background-color: #29ABE2; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">Cadastre-se</button>
         </a>
     </div>
-
-    (Você pode substituir o href com o link de cadastro real se tiver um)
 
 2.  **Explore os Recursos:**
     *   **Categorize seus Lançamentos:** Organize seus gastos e receitas por categorias para melhor visualização.
@@ -42,8 +40,6 @@ Bem-vindo ao Finans, a ferramenta que vai transformar a forma como você lida co
             <img src="img/apple.png" width="65px" alt="Apple App">
         </a>
     </div>
-
-    (Você pode substituir as tags href com links reais se tiver os aplicativos)
 
 ## ⚙️ Tecnologias Utilizadas
 
