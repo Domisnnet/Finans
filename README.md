@@ -36,7 +36,7 @@ Bem-vindo ao Finans, a ferramenta que vai transformar a forma como você lida co
           <img src="img/android.png" width="50px" alt="Android App">
         </a>
 
-        <a href="#android">
+        <a href="#apple">
           <img src="img/apple.png" width="50px" alt="Android App">
         </a>
     </div>
