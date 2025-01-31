@@ -17,11 +17,10 @@ Bem-vindo ao Finans, a ferramenta que vai transformar a forma como você lida co
 1.  **Comece Agora:**
     Clique no botão abaixo para iniciar sua jornada com o Finans:
 
-    <div align="center">
-        <a href="https://domisnnet.github.io/finans/">
-            <button type="button" class="btn btn-success">Cadastre-se</button>
-        </a>
-    </div>
+    <a href="https://domisnnet.github.io/app-mata-mosquito/app.html?normal">
+        <img src="imagens/botão.webp" width="35px" height="35px" alt="Acesse">
+        Acessar
+    </a>
 
 2.  **Explore os Recursos:**
     *   **Categorize seus Lançamentos:** Organize seus gastos e receitas por categorias para melhor visualização.
@@ -29,8 +28,9 @@ Bem-vindo ao Finans, a ferramenta que vai transformar a forma como você lida co
     *   **Configure Alertas:** Defina lembretes para contas a pagar e receber.
 
 3. **Acesse em Diversos Dispositivos:**
-    O Finans funciona no Celular, Tablet ou Desktops.
+    * **O Finans funciona:** no Celular, Tablet ou Desktops.
 
+---
 ## ⚙️ Tecnologias Utilizadas
 
 O Finans foi desenvolvido usando:
