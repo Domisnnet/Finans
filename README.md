@@ -19,7 +19,7 @@ Bem-vindo ao Finans, a ferramenta que vai transformar a forma como você lida co
 
     <div align="center">
         <a href="https://domisnnet.github.io/finans/">
-            <button style="background-color: #29ABE2; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">Cadastre-se</button>
+            <button style="background-color: #29ABE2; color: white; padding: 10px 20px; border: none; border-radius: 10px; cursor: pointer;">Cadastre-se</button>
         </a>
     </div>
 
@@ -36,8 +36,8 @@ Bem-vindo ao Finans, a ferramenta que vai transformar a forma como você lida co
           <img src="img/android.png" width="50px" alt="Android App">
         </a>
 
-        <a href="#apple">
-            <img src="img/apple.png" width="65px" alt="Apple App">
+        <a href="#android">
+          <img src="img/apple.png" width="50px" alt="Android App">
         </a>
     </div>
 
