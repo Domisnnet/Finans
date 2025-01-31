@@ -17,9 +17,9 @@ Bem-vindo ao Finans, a ferramenta que vai transformar a forma como você lida co
 1.  **Comece Agora:**
     Clique no botão abaixo para iniciar sua jornada com o Finans:
 
-    <a href="https://domisnnet.github.io/finans/">
-        <img src="src/img/botão.webp" width="35px" height="35px" alt="Acesse">
-    </a>
+<a href="https://domisnnet.github.io/finans/">
+    <img src="src/img/botão.webp" width="35px" height="35px" alt="Acesse">
+</a>
 
 2.  **Explore os Recursos:**
     *   **Categorize seus Lançamentos:** Organize seus gastos e receitas por categorias para melhor visualização.
@@ -47,7 +47,11 @@ Quer saber como o Finans foi construído? Confira o código-fonte no nosso repos
 ---
 ## 📝 Créditos
 
-*   **Desenvolvimento:** DomisDev
+*   **Desenvolvimento:**
+<a href="https://github.com/Domisnnet">
+    <img src="src/img/DomisDev.png" width="60px" height="60px" alt="Acessar perfil GitHub">
+</a>
+
 *   **Design:** Layout e elementos visuais criados para uma experiência intuitiva.
 *   **Estilização:** Bootstrap e CSS personalizados.
 
