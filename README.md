@@ -1,7 +1,7 @@
 
 # 💰 Finans: Simplifique Sua Vida Financeira! 💰
 
-![Finans Logo](img/logo.png)
+![Finans](img/iMac-24-1120x630.png)
 
 Bem-vindo ao Finans, a ferramenta que vai transformar a forma como você lida com suas finanças! Com uma interface intuitiva e recursos poderosos, o Finans ajuda você a organizar suas contas, economizar e alcançar seus objetivos financeiros.
 
@@ -55,8 +55,7 @@ Quer saber como o Finans foi construído? Confira o código-fonte no nosso repos
 
 [Repositório do Finans](https://domisnnet.github.io/finans/)
 
-*(Substitua `https://github.com/seu-usuario/seu-repositorio` pelo link real do seu repositório)*
-
+---
 ## 📝 Créditos
 
 *   **Desenvolvimento:** DomisDev
