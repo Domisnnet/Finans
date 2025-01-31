@@ -47,7 +47,7 @@ Quer saber como o Finans foi construído? Confira o código-fonte no nosso repos
 ---
 ## 📝 Créditos
 
-*   **Desenvolvimento:** DomisDev
+*   **Desenvolvimento:** <strong>DomisDev.</strong>
 
 *   **Design:** Layout e elementos visuais criados para uma experiência intuitiva.
 *   **Estilização:** Bootstrap e CSS personalizados.
