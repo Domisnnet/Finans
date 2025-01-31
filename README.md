@@ -17,8 +17,8 @@ Bem-vindo ao Finans, a ferramenta que vai transformar a forma como você lida co
 1.  **Comece Agora:**
     Clique no botão abaixo para iniciar sua jornada com o Finans:
 
-    <a href="https://domisnnet.github.io/app-mata-mosquito/app.html?normal">
-        <img src="imagens/botão.webp" width="35px" height="35px" alt="Acesse">
+    <a href="https://domisnnet.github.io/finans/">
+        <img src="img/botão.webp" width="35px" height="35px" alt="Acesse">
         Acessar
     </a>
 
