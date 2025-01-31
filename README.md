@@ -47,10 +47,7 @@ Quer saber como o Finans foi construído? Confira o código-fonte no nosso repos
 ---
 ## 📝 Créditos
 
-*   **Desenvolvimento:**
-<a href="https://github.com/Domisnnet">
-    <img src="src/img/DomisDev.png" width="60px" height="60px" alt="Acessar perfil GitHub">
-</a>
+*   **Desenvolvimento:** DomisDev
 
 *   **Design:** Layout e elementos visuais criados para uma experiência intuitiva.
 *   **Estilização:** Bootstrap e CSS personalizados.
@@ -67,7 +64,16 @@ Quer saber como o Finans foi construído? Confira o código-fonte no nosso repos
 
 **P3:** Preciso pagar para usar o Finans?
 
-   **R:** Oferecemos um plano gratuito com recursos essenciais e planos pagos com funcionalidades avançadas.
+   **R:** Oferecemos um plano gratuito (simulação) com recursos essenciais e planos pagos com funcionalidades avançadas.
+
+**P4:** Como posso entrar em contato com o desenvolvedor?
+
+   **Resposta:** Você pode entrar em contato através do perfil do GitHub: 
+
+<a href="https://github.com/Domisnnet">
+    <img src="src/imagens/DomisDev.png" width="60px" height="60px" alt="Acessar perfil GitHub">
+    DomisDev
+</a> 
 
 ---
 
