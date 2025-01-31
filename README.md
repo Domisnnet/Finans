@@ -17,7 +17,7 @@ Bem-vindo ao Finans, a ferramenta que vai transformar a forma como você lida co
 1.  **Comece Agora:**
     Clique no botão abaixo para iniciar sua jornada com o Finans:
 
-<a href="https://domisnnet.github.io/finans/">
+<a href="https://domisnnet.github.io/finans/" target="_blank" rel="noopener noreferrer">
     <img src="src/img/botão.webp" width="35px" height="35px" alt="Acesse">
 </a>
 
