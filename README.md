@@ -29,17 +29,7 @@ Bem-vindo ao Finans, a ferramenta que vai transformar a forma como você lida co
     *   **Configure Alertas:** Defina lembretes para contas a pagar e receber.
 
 3. **Acesse em Diversos Dispositivos:**
-    O Finans está disponível para:
-
-    <div align="center">
-        <a href="#android">
-          <img src="img/android.png" width="50px" alt="Android App">
-        </a>
-
-        <a href="#apple">
-          <img src="img/apple.png" width="50px" alt="Android App">
-        </a>
-    </div>
+    O Finans funciona no Celular, Tablet ou Desktops.
 
 ## ⚙️ Tecnologias Utilizadas
 
@@ -78,4 +68,4 @@ Quer saber como o Finans foi construído? Confira o código-fonte no nosso repos
 
 ---
 
-Comece a organizar suas finanças hoje mesmo! 
+Comece a organizar suas finanças hoje mesmo! 💰
