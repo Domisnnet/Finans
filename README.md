@@ -19,7 +19,6 @@ Bem-vindo ao Finans, a ferramenta que vai transformar a forma como você lida co
 
     <a href="https://domisnnet.github.io/finans/">
         <img src="img/botão.webp" width="35px" height="35px" alt="Acesse">
-        Acessar
     </a>
 
 2.  **Explore os Recursos:**
