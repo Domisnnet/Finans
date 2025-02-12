@@ -52,6 +52,12 @@ Quer saber como o Finans foi construído? Confira o código-fonte no nosso repos
 *   **Design:** Layout e elementos visuais criados para uma experiência intuitiva.
 *   **Estilização:** Bootstrap e CSS personalizados.
 
+## 📝 Licença:
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
+
+---
+
 ## 🤔 Perguntas Frequentes (FAQ)
 
 **P1:** Como o Finans me ajuda a economizar?
