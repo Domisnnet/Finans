@@ -84,7 +84,7 @@ Este projeto está licenciado sob a [MIT License](LICENSE).
 
 ## 📝 Créditos
 
-*   **Desenvolvimento:** <strong>DomisDev.</strong>
+*   **Desenvolvimento:** __DomisDev.__
 
 *   **Design:** Layout e elementos visuais criados para uma experiência intuitiva.
 *   **Estilização:** Bootstrap e CSS personalizados.
