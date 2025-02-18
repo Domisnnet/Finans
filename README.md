@@ -46,12 +46,6 @@ Quer saber como o Finans foi construído? Confira o código-fonte no nosso repos
 
 ---
 
-## 📝 Licença:
-
-Este projeto está licenciado sob a [MIT License](LICENSE).
-
----
-
 ## 🤝 Contribuição:
 
 <div style="background-color: #f0f0f0; padding: 20px; border-radius: 10px; border: 2px solid #222;">
@@ -79,6 +73,12 @@ Este projeto está licenciado sob a [MIT License](LICENSE).
       </li>
     </ul>
 </div>
+
+---
+
+## 📝 Licença:
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
 
 ---
 
