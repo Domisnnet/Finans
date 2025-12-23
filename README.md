@@ -12,6 +12,10 @@ Comece a organizar suas finanças hoje mesmo! 💰
 
 ---
 
+## 📚 Tabela de Conteúdo
+
+---
+
 <h2 id="o-que-o-finans-oferece?">2. 🚀 O Que o Finans Oferece?</h2>
 
 *   **Controle Simplificado:** Acompanhe seus gastos e receitas de forma fácil e intuitiva.
@@ -32,6 +36,17 @@ Comece a organizar suas finanças hoje mesmo! 💰
 </div>
 
 ---
+
+<h2 id="funcionalidades">4. 🧩 Funcionalidades Principais</h2>
+
+| Funcionalidade | Descrição |
+| :--- | :--- |
+| 📱 **Responsividade** | Interface adaptável para Mobile, Tablet e Desktop via Bootstrap. |
+| 🎠 **Carrossel Interativo** | Exibição dinâmica de lançamentos e destaques com transições suaves. |
+| 🧭 **Navegação Smart** | Menu responsivo (hambúrguer) para fácil acesso em telas menores. |
+| 🎨 **UI Consistente** | Replicagem de cores, fontes e espaçamentos da identidade Spotify. |
+| 🔗 **Footer Completo** | Rodapé estruturado com links de comunidade e redes sociais. |
+
 
 2.  **Explore os Recursos:**
     *   **Categorize seus Lançamentos:** Organize seus gastos e receitas por categorias para melhor visualização.
