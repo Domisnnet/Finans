@@ -47,9 +47,7 @@ O Finans foi desenvolvido usando:
 
 Quer saber como o Finans foi construído? Confira o código-fonte no nosso repositório:
 
-[Repositório do Finans](https://domisnnet.github.io/finans/)
-
----
+[Repositório do Finans](https://domisnnet.github.io/Finans/)
 
 ---
 
