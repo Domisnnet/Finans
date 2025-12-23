@@ -29,11 +29,22 @@ nav.navbar-transparente {
 	padding: 20px;
 }
 
-.navbar-link, p {
+.navbar-link {
 	color: white;
 	text-decoration: none;
 	font-weight: bolder;
 }
+
+#home p {
+    color: white;
+    font-weight: bolder;
+}
+
+.caixa p {
+    color: #6c757d;
+    font-weight: normal;
+}
+
 
 .navbar-link:hover {
 	text-decoration: none;
