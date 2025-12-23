@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Acesse sua conta Finans.">
+  <title>Finans - Login</title>
+  <link rel="icon" href="src/imagens/favicon.ico">
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="vendor/fontawesome/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="src/css/estilos-globais.css">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .login-container {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+    }
+    .card-login {
+      max-width: 400px;
+      margin: auto;
+      border: none;
+      border-radius: 1rem;
+      box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    }
+    .card-header {
+      border-top-left-radius: 1rem;
+      border-top-right-radius: 1rem;
+    }
+  </style>
+</head>
+<body data-base="./"> 
+  <div id="header-placeholder"></div>    
+  <main class="login-container">
+    <div class="container">
+      <div class="card card-login">
+        <div class="card-header bg-primary text-white text-center py-4">
+          <h2 class="mb-0">Acessar sua Conta</h2>
+        </div>
+        <div class="card-body p-4 p-md-5">
+          <form>
+            <div class="form-group mb-4">
+              <label for="email" class="font-weight-bold">E-mail</label>
+              <input type="email" class="form-control form-control-lg" id="email" placeholder="seuemail@exemplo.com" required>
+            </div>
+            <div class="form-group mb-4">
+              <label for="password" class="font-weight-bold">Senha</label>
+              <input type="password" class="form-control form-control-lg" id="password" placeholder="Sua senha" required>
+            </div>
+            <div class="form-group form-check mb-4">
+              <input type="checkbox" class="form-check-input" id="lembrar-me">
+              <label class="form-check-label" for="lembrar-me">Lembrar-me</label>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg btn-block">Entrar</button>
+          </form>
+          <div class="text-center mt-4">
+            <a href="#">Esqueceu sua senha?</a>
+            <p class="mt-3">Não tem uma conta? <a href="cadastro.html">Cadastre-se</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div id="footer-placeholder" class="d-none"></div>
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/popper/popper.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="src/js/template-loader.js" defer></script>
+</body>
+</html>
