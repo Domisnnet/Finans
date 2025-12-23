@@ -68,21 +68,35 @@ Siga os passos abaixo para fortalecer este projeto:
 
 <h2 id="faq">8. 🧠 Perguntas Frequentes</h2>
 
-**P1:** Como o Finans me ajuda a economizar?
+<details>
+<summary><strong>Como o Finans me ajuda a economizar ❓</strong></summary>
+<p>🎨 <strong>Resposta:</strong>Com o Finans, você tem controle total sobre suas finanças, identifica seus maiores gastos e recebe alertas para evitar juros e atrasos.</p>
+</details>
 
-   **R:** Com o Finans, você tem controle total sobre suas finanças, identifica seus maiores gastos e recebe alertas para evitar juros e atrasos.
+<details>
+<summary><strong>Finans é seguro?❓</strong></summary>
+<p>🔄 <strong>Resposta:</strong>Sim! Utilizamos as melhores práticas de segurança para proteger seus dados.</p>
+</details>
 
-**P2:** O Finans é seguro?
+<details>
+<summary><strong>Preciso pagar para usar o Finans?❓</strong></summary>
+<p>📱 <strong>Resposta:</strong>Oferecemos um plano gratuito (simulação) com recursos essenciais e planos pagos com funcionalidades avançadas.</p>
+</details>
 
-   **R:** Sim! Utilizamos as melhores práticas de segurança para proteger seus dados.
+<details>
+<summary><strong>Posso utilizar este código em meu portfólio pessoal ❓</strong></summary>
+<p>🤝 <strong>Resposta:</strong> Com certeza. O projeto é <strong>Open Source</strong>. Você pode clonar, estudar a estrutura de pastas e utilizar como base para seus próprios estudos de UI, desde que mantenha a atribuição original conforme a licença MIT e dê os devidos créditos.</p>
+</details>
 
-**P3:** Preciso pagar para usar o Finans?
+<details>
+<summary><strong>Por que utilizar Bootstrap em vez de Tailwind ou CSS Puro ❓</strong></summary>
+<p>🛠️ <strong>Resposta:</strong> A escolha do Bootstrap foi estratégica para agilizar o desenvolvimento de componentes complexos (como modais e menus colapsáveis) e garantir uma base sólida de acessibilidade e padronização que o framework oferece nativamente.</p>
+</details>
 
-   **R:** Oferecemos um plano gratuito (simulação) com recursos essenciais e planos pagos com funcionalidades avançadas.
-
-**P4:** Como posso entrar em contato com o desenvolvedor?
-
-   **Resposta:** Você pode entrar em contato através do perfil do GitHub:
+<details>
+<summary><strong>Como entro em contato para sugestões ou bugs ❓</strong></summary>
+<p>📩 <strong>Resposta:</strong> A melhor forma é abrindo uma <strong>Issue</strong> no repositório ou entrando em contato via perfil do GitHub. Adoramos receber feedbacks sobre melhorias na interface!</p>
+</details>
 
 ---
 
