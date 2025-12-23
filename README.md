@@ -1,5 +1,5 @@
 
-<h1 id="finans">1. Finans: Simplifique Sua Vida Financeira! 💰</h1>
+<h2 id="finans">1. Finans: Simplifique Sua Vida Financeira! 💰</h2>
 
 ![Status do Deploy](https://img.shields.io/badge/Status-Online-brightgreen)
 ![Tecnologias](https://img.shields.io/badge/Tecnologias-HTML%20%7C%20CSS%20%7C%20JS%20%7C%20Bootstrap-blueviolet)
@@ -8,15 +8,16 @@
 ![Finans](src/img/iMac-24-1120x630.png)
 
 Bem-vindo ao Finans, a ferramenta que vai transformar a forma como você lida com suas finanças! Com uma interface intuitiva e recursos poderosos, o Finans ajuda você a organizar suas contas, economizar e alcançar seus objetivos financeiros.
+Comece a organizar suas finanças hoje mesmo! 💰
 
-## 🚀 O Que o Finans Oferece?
+<h2 id="o-que-o-finans-oferece?">2. 🚀 O Que o Finans Oferece?</h2>
 
 *   **Controle Simplificado:** Acompanhe seus gastos e receitas de forma fácil e intuitiva.
 *   **Gráficos e Análises:** Visualize para onde seu dinheiro está indo com gráficos claros e informativos.
 *   **Alertas Personalizados:** Receba notificações sobre contas a pagar e receber, evitando atrasos e juros.
 *   **Disponível em Diversas Plataformas:** Acesse o Finans no seu computador ou celular, de onde estiver.
 
-## 📱 Como Usar o Finans?
+<h2 id="como-usar">3. 📱 Como Usar o Finans?</h2>
 
 1.  **Comece Agora:**
     Clique no botão abaixo para iniciar sua jornada com o Finans:
@@ -34,7 +35,7 @@ Bem-vindo ao Finans, a ferramenta que vai transformar a forma como você lida co
     * **O Finans funciona:** no Celular, Tablet ou Desktop.
 
 ---
-## ⚙️ Tecnologias Utilizadas
+<h2 id="tecnologias-utilizadas">4. ⚙️ Tecnologias Utilizadas</h2>
 
 O Finans foi desenvolvido usando:
 
@@ -42,7 +43,7 @@ O Finans foi desenvolvido usando:
 *   **Bootstrap:** Para um layout responsivo e adaptável a qualquer dispositivo.
 *   **Font Awesome:** Para ícones que tornam a interface mais amigável.
 
-## 💻 Código Aberto
+<h1 id="codigo-aberto">5. 💻 Código Aberto</h1>
 
 Quer saber como o Finans foi construído? Confira o código-fonte no nosso repositório:
 
@@ -50,51 +51,23 @@ Quer saber como o Finans foi construído? Confira o código-fonte no nosso repos
 
 ---
 
-## 🤝 Contribuição:
+---
 
-<div style="background-color: #f0f0f0; padding: 20px; border-radius: 10px; border: 2px solid #222;">
-    <p style="margin-bottom: 10px; font-weight: bold; color: #0056b3; text-align: center;">
-      <span style="display:inline-block; margin-right: 5px;"> 👐 </span> Siga os passos para fortalecer este deck:
-    </p>
-    <ul style="list-style-type: none; padding: 0; margin: 0;">
-      <li style="margin-bottom: 10px;">
-           <span style="font-weight: bold; color: #1c7430;">1. 🍴 <a href="https://github.com/Domisnnet/finans/fork" target="_blank" style="color: #1c7430; text-decoration: underline;">Faça um fork</a>:</span> Adicione este projeto ao seu deck.
-      </li>
-      <li style="margin-bottom: 10px;">
-          <span style="font-weight: bold; color: #1c7430;">2. 🌿 Crie uma branch:</span> Prepare suas atualizações. <a href="https://www.atlassian.com/br/git/tutorials/using-branches" target="_blank" style="color: #1c7430; text-decoration: underline;">Tutorial sobre Branches</a>
-      </li>
-      <li style="margin-bottom: 10px;">
-          <span style="font-weight: bold; color: #1c7430;">3. ✍️ Prepare seus commits:</span> Guarde suas mudanças. <a href="https://www.atlassian.com/br/git/tutorials/saving-changes/git-commit" target="_blank" style="color: #1c7430; text-decoration: underline;">Tutorial sobre Commits</a>
-      </li>
-     <li style="margin-bottom: 10px;">
-          <span style="font-weight: bold; color: #1c7430;">4. 🚀 Envie:</span> Lance sua sugestão (`git push origin minha-contribuicao`).
-      </li>
-      <li>
-           <span style="font-weight: bold; color: #1c7430;">5. ⚔️ <a href="https://github.com/Domisnnet/finans/compare" target="_blank" style="color: #1c7430; text-decoration: underline;">Abra um Pull Request</a>:</span> Desafie este deck original.
-      </li>
-      <li>
-           <span style="font-weight: bold; color: #1c7430;">6. 🐛 <a href="https://github.com/Domisnnet/finans/issues" target="_blank" style="color: #1c7430; text-decoration: underline;">Reportar um problema/Sugestão (Issues)</a></span>
-      </li>
-    </ul>
-</div>
+<h2 id="como-contribuir">7. 🤝 Como Contribuir</h2>
+
+Siga os passos abaixo para fortalecer este projeto:
+
+| Fase | Ação | Link / Comando |
+| :---: | :--- | :--- |
+| **01** | **Fork** | [![Fork](https://img.shields.io/badge/-Fazer%20Fork-blue?style=flat-square&logo=github)](https://github.com/Domisnnet/Finans/fork) |
+| **02** | **Branch** | `git checkout -b feature/MinhaMelhoria` |
+| **03** | **Commit** | `git commit -m 'feat: nova seção de álbuns'` |
+| **04** | **Push** | `git push origin feature/MinhaMelhoria` |
+| **05** | **PR** | [![Abrir PR](https://img.shields.io/badge/-Abrir%20PR-green?style=flat-square&logo=git)](https://github.com/Domisnnet/Finans/compare) |
 
 ---
 
-## 📝 Licença:
-
-Este projeto está licenciado sob a [MIT License](LICENSE).
-
----
-
-## 📝 Créditos
-
-*   **Desenvolvedor:** __DomisDev.__
-
-*   **Design:** Layout e elementos visuais criados para uma experiência intuitiva.
-*   **Estilização:** Bootstrap e CSS personalizados.
-
-
-## 🤔 Perguntas Frequentes (FAQ)
+<h2 id="faq">8. 🧠 Perguntas Frequentes</h2>
 
 **P1:** Como o Finans me ajuda a economizar?
 
@@ -110,13 +83,39 @@ Este projeto está licenciado sob a [MIT License](LICENSE).
 
 **P4:** Como posso entrar em contato com o desenvolvedor?
 
-   **Resposta:** Você pode entrar em contato através do perfil do GitHub: 
-
-<a href="https://github.com/Domisnnet">
-    <img src="src/img/DomisDev.png" width="60px" height="60px" alt="Acessar perfil GitHub">
-    DomisDev
-</a> 
+   **Resposta:** Você pode entrar em contato através do perfil do GitHub:
 
 ---
 
-Comece a organizar suas finanças hoje mesmo! 💰
+<h2 id="codigo-fonte">9. 💻 Código Fonte</h2>
+
+Deseja analisar a estrutura do projeto? Explore o repositório oficial:
+
+[![Repositório](https://img.shields.io/badge/Repositório-Domisnnet%2FFinans-1DB954?style=for-the-badge&logo=github)](https://github.com/Domisnnet/Finans)
+
+---
+
+<h2 id="créditos">10. 📝 Créditos & Reconhecimentos</h2> 
+
+| Atribuição | Responsável / Recurso | Descrição |
+| :--- | :--- | :--- |
+| **Arquitetura & Dev** | **DomisDev** | Idealização, estruturação do código e implementação da lógica responsiva. |
+| **Identidade Visual** | **Finans Inc.** | Referência de Design Fictício, paleta de cores e UX (User Experience). |
+| **Engine Gráfica** | **Bootstrap & CSS3** | Fornecimento dos componentes de layout e estilização moderna. |
+| **Assets Visuais** | **Font Awesome & Devicons** | Ícones de alta fidelidade que compõem a estética da interface. |
+| **Aprendizado** | **Comunidade Dev** | Baseado em princípios de Clean Code e boas práticas de Front-end. |
+
+### 🎯 Missão do Projeto
+> "Este projeto foi construído com o propósito de demonstrar que interfaces complexas podem ser recriadas com precisão utilizando tecnologias fundamentais da web, servindo de base para estudos de UI/UX e performance."
+
+---
+
+<h2 id="licenca">11. 📄 Licença</h2>
+
+Este projeto está licenciado sob a [![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Domisnnet/Finans/blob/main/LICENSE)
+
+---
+
+<h2 id="perfil-do-github">12. 👨‍💻 Perfil do GitHub</h2>
+
+<a href="https://github.com/Domisnnet"> <img src="src/imagens/DomisDev.png" width="120" alt="Acessar perfil GitHub"> </a>
