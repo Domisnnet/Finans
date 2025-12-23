@@ -27,7 +27,7 @@
       enable = true;
       previews = {
         web = {
-          command = ["python3", "-m", "http.server", "$PORT"];
+          command = ["http-server", "-p", "$PORT"];
           manager = "web";
         };
       };
