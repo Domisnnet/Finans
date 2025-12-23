@@ -4,7 +4,7 @@
 ![Tecnologias](https://img.shields.io/badge/Tecnologias-HTML%20%7C%20CSS%20%7C%20JS%20%7C%20Bootstrap-blueviolet)
 [![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Domisnnet/Finans/blob/main/LICENSE)
 
-![Finans](src/img/iMac-24-1120x630.png)
+![Finans](src/imagens/iMac-24-1120x630.png)
 
 Bem-vindo ao **Finans**! Uma interface moderna e intuitiva projetada para transformar a gestão financeira pessoal. Com foco em usabilidade, o projeto demonstra como organizar receitas e despesas de forma clara e responsiva.
 
@@ -38,7 +38,7 @@ Clique no botão abaixo para testar a interface do Finans em tempo real:
 
 <div align="left">
   <a href="https://domisnnet.github.io/Finans/" target="_blank">
-    <img alt="Botão Acessar" src="src/img/botão.webp" height="70" width="70" />
+    <img alt="Botão Acessar" src="src/imagens/botão.webp" height="70" width="70" />
   </a>
 </div>
 
@@ -149,4 +149,4 @@ Este projeto está licenciado sob a [![Licença MIT](https://img.shields.io/badg
 
 <h2 id="perfil-do-github">12. 👨‍💻 Perfil do GitHub</h2>
 
-<a href="https://github.com/Domisnnet"> <img src="src/img/DomisDev.png" width="120" alt="Acessar perfil GitHub"> </a>
+<a href="https://github.com/Domisnnet"> <img src="src/imagens/DomisDev.png" width="120" alt="Acessar perfil GitHub"> </a>
