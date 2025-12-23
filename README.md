@@ -1,5 +1,4 @@
-
-<h2 id="finans">1. Finans: Simplifique Sua Vida Financeira! 💰</h2>
+<h2 id="sobre-o-projeto">1. 💰 Finans - Simplifique Sua Vida Financeira 💰</h2>
 
 ![Status do Deploy](https://img.shields.io/badge/Status-Online-brightgreen)
 ![Tecnologias](https://img.shields.io/badge/Tecnologias-HTML%20%7C%20CSS%20%7C%20JS%20%7C%20Bootstrap-blueviolet)
@@ -7,27 +6,35 @@
 
 ![Finans](src/img/iMac-24-1120x630.png)
 
-Bem-vindo ao Finans, a ferramenta que vai transformar a forma como você lida com suas finanças! Com uma interface intuitiva e recursos poderosos, o Finans ajuda você a organizar suas contas, economizar e alcançar seus objetivos financeiros.
-Comece a organizar suas finanças hoje mesmo! 💰
+Bem-vindo ao **Finans**! Uma interface moderna e intuitiva projetada para transformar a gestão financeira pessoal. Com foco em usabilidade, o projeto demonstra como organizar receitas e despesas de forma clara e responsiva.
 
 ---
 
 ## 📚 Tabela de Conteúdo
 
----
-
-<h2 id="o-que-o-finans-oferece?">2. 🚀 O Que o Finans Oferece?</h2>
-
-*   **Controle Simplificado:** Acompanhe seus gastos e receitas de forma fácil e intuitiva.
-*   **Gráficos e Análises:** Visualize para onde seu dinheiro está indo com gráficos claros e informativos.
-*   **Alertas Personalizados:** Receba notificações sobre contas a pagar e receber, evitando atrasos e juros.
-*   **Disponível em Diversas Plataformas:** Acesse o Finans no seu computador ou celular, de onde estiver.
+| 📊 O Projeto | 🛠️ Técnico | 🤝 Comunidade |
+| :---: | :---: | :---: |
+| [![1. Sobre](https://img.shields.io/badge/1%20-%20Sobre-4CAF50)](#sobre-o-projeto) | [![5. Destaques](https://img.shields.io/badge/5%20-%20Destaques-607D8B)](#destaques-tecnicos) | [![9. Código](https://img.shields.io/badge/9%20-%20Código-795548)](#codigo-fonte) |
+| [![2. Techs](https://img.shields.io/badge/2%20-%20Techs-2196F3)](#tecnologias-utilizadas) | [![6. Repositório](https://img.shields.io/badge/6%20-%20Repo-009688)](#codigo-fonte) | [![10. Créditos](https://img.shields.io/badge/10%20-%20Créditos-607D8B)](#créditos) |
+| [![3. Acessar](https://img.shields.io/badge/3%20-%20Acessar-FF9800)](#como-acessar) | [![7. Contribuir](https://img.shields.io/badge/7%20-%20Contribuir-3F51B5)](#como-contribuir) | [![11. Licença](https://img.shields.io/badge/11%20-%20Licença-E91E63)](#licenca) |
+| [![4. Funções](https://img.shields.io/badge/4%20-%20Funções-9C27B0)](#funcionalidades) | [![8. FAQ](https://img.shields.io/badge/8%20-%20FAQ-FFC107)](#faq) | [![12. Perfil](https://img.shields.io/badge/12%20-%20Perfil-212121)](#perfil-do-github) |
 
 ---
 
-<h2 id="como-usar">3. 📱 Como Usar o Finans?</h2>
+<h2 id="tecnologias-utilizadas">2. ⚙️ Tecnologias Utilizadas</h2>
 
-**Comece Agora:** Clique no botão abaixo para iniciar sua jornada com o Finans:
+| Camada | Tecnologias | Descrição |
+| :--- | :--- | :--- |
+| **Frontend** | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) | Estrutura semântica para dados financeiros e estilização. |
+| **Framework UI** | ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white) | Layout responsivo e componentes de Dashboard. |
+| **Interatividade** | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | Lógica de interface e manipulação de elementos dinâmicos. |
+| **Icons** | ![FontAwesome](https://img.shields.io/badge/Font_Awesome-339AF0?style=flat-square&logo=fontawesome&logoColor=white) | Simbologia financeira e indicadores visuais. |
+
+---
+
+<h2 id="como-acessar">3. 🚀 Como Acessar</h2>
+
+Clique no botão abaixo para testar a interface do Finans em tempo real:
 
 <div align="left">
   <a href="https://domisnnet.github.io/Finans/" target="_blank">
@@ -41,38 +48,21 @@ Comece a organizar suas finanças hoje mesmo! 💰
 
 | Funcionalidade | Descrição |
 | :--- | :--- |
-| 📱 **Responsividade** | Interface adaptável para Mobile, Tablet e Desktop via Bootstrap. |
-| 🎠 **Carrossel Interativo** | Exibição dinâmica de lançamentos e destaques com transições suaves. |
-| 🧭 **Navegação Smart** | Menu responsivo (hambúrguer) para fácil acesso em telas menores. |
-| 🎨 **UI Consistente** | Replicagem de cores, fontes e espaçamentos da identidade Spotify. |
-| 🔗 **Footer Completo** | Rodapé estruturado com links de comunidade e redes sociais. |
-
-
-2.  **Explore os Recursos:**
-    *   **Categorize seus Lançamentos:** Organize seus gastos e receitas por categorias para melhor visualização.
-    *   **Acompanhe seu Orçamento:** Defina metas de gastos e acompanhe seu progresso.
-    *   **Configure Alertas:** Defina lembretes para contas a pagar e receber.
-
-3. **Acesse em Diversos Dispositivos:**
-    * **O Finans funciona:** no Celular, Tablet ou Desktop.
-
+| 📱 **Responsividade Total** | Experiência fluida desde smartphones até desktops de alta resolução. |
+| 📈 **Visualização Clara** | Organização de seções para facilitar a leitura de dados bancários. |
+| 🔔 **Interface de Alertas** | Design focado em notificações e chamadas de ação (CTA) eficazes. |
+| 🎨 **UI Profissional** | Paleta de cores sóbria e tipografia focada em legibilidade financeira. |
+| 🛠️ **Dashboard Simulado** | Estrutura de navegação lateral e superior típica de apps de finanças. |
 
 ---
 
-<h2 id="tecnologias-utilizadas">4. ⚙️ Tecnologias Utilizadas</h2>
+<h2 id="destaques-tecnicos">5. 💻 Destaques Técnicos</h2>
 
-O Finans foi desenvolvido usando:
+### 📊 Organização de Conteúdo Complexo
+O desafio principal foi estruturar informações densas de forma que não sobrecarreguem o usuário, utilizando **Flexbox** para alinhar cards de resumo financeiro.
 
-*   **HTML5, CSS3, JavaScript:** Para a estrutura, estilo e interatividade.
-*   **Bootstrap:** Para um layout responsivo e adaptável a qualquer dispositivo.
-*   **Font Awesome:** Para ícones que tornam a interface mais amigável.
-
-<h1 id="codigo-aberto">5. 💻 Código Aberto</h1>
-
-Quer saber como o Finans foi construído? Confira o código-fonte no nosso repositório:
-
-[![Repositório](https://img.shields.io/badge/Repositório-Domisnnet%2FFinans-1DB954?style=for-the-badge&logo=github)](https://github.com/Domisnnet/Finans)
-
+### 📱 Mobile First com Bootstrap 5
+A implementação prioriza o uso das classes utilitárias do Bootstrap para garantir que tabelas e gráficos simulados se transformem em listas empilhadas em telas pequenas.
 
 ---
 
@@ -126,24 +116,17 @@ Siga os passos abaixo para fortalecer este projeto:
 
 <h2 id="codigo-fonte">9. 💻 Código Fonte</h2>
 
-Deseja analisar a estrutura do projeto? Explore o repositório oficial:
-
 [![Repositório](https://img.shields.io/badge/Repositório-Domisnnet%2FFinans-1DB954?style=for-the-badge&logo=github)](https://github.com/Domisnnet/Finans)
 
 ---
 
-<h2 id="créditos">10. 📝 Créditos & Reconhecimentos</h2> 
+<h2 id="créditos">10. 📝 Créditos & Reconhecimentos</h2>
 
 | Atribuição | Responsável / Recurso | Descrição |
 | :--- | :--- | :--- |
-| **Arquitetura & Dev** | **DomisDev** | Idealização, estruturação do código e implementação da lógica responsiva. |
-| **Identidade Visual** | **Finans Inc.** | Referência de Design Fictício, paleta de cores e UX (User Experience). |
-| **Engine Gráfica** | **Bootstrap & CSS3** | Fornecimento dos componentes de layout e estilização moderna. |
-| **Assets Visuais** | **Font Awesome & Devicons** | Ícones de alta fidelidade que compõem a estética da interface. |
-| **Aprendizado** | **Comunidade Dev** | Baseado em princípios de Clean Code e boas práticas de Front-end. |
-
-### 🎯 Missão do Projeto
-> "Este projeto foi construído com o propósito de demonstrar que interfaces complexas podem ser recriadas com precisão utilizando tecnologias fundamentais da web, servindo de base para estudos de UI/UX e performance."
+| **Arquitetura & Dev** | **DomisDev** | Idealização e implementação do Front-end. |
+| **Engine Gráfica** | **Bootstrap & CSS3** | Framework base para agilidade e padronização. |
+| **Assets Visuais** | **Font Awesome** | Ícones representativos de transações e finanças. |
 
 ---
 
