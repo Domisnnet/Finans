@@ -1,3 +1,11 @@
+/* =========================
+   Reset e base
+========================= */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 #home {
 	background: #ffc107;
@@ -119,4 +127,34 @@ footer h4 {
 	color: white;
 	font-size: 1em;
 	text-transform: uppercase;
+}
+
+
+@media (max-width: 767.98px) { 
+    #home .ajuste {
+        margin-left: 0; 
+    }
+    .caixa {
+        padding-top: 60px; 
+        padding-bottom: 60px;
+    }
+
+    .display-3 {
+        font-size: 2.5rem; 
+    }
+
+    #home {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    footer {
+        padding-top: 30px; 
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-brand {
+      padding: 20px;
+    }
 }
