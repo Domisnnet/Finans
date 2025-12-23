@@ -1,5 +1,9 @@
 
-# 💰 Finans: Simplifique Sua Vida Financeira! 💰
+<h1 id="finans">1. Finans: Simplifique Sua Vida Financeira! 💰</h1>
+
+![Status do Deploy](https://img.shields.io/badge/Status-Online-brightgreen)
+![Tecnologias](https://img.shields.io/badge/Tecnologias-HTML%20%7C%20CSS%20%7C%20JS%20%7C%20Bootstrap-blueviolet)
+[![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Domisnnet/Finans/blob/main/LICENSE)
 
 ![Finans](src/img/iMac-24-1120x630.png)
 
