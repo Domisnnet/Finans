@@ -17,14 +17,19 @@ Comece a organizar suas finanças hoje mesmo! 💰
 *   **Alertas Personalizados:** Receba notificações sobre contas a pagar e receber, evitando atrasos e juros.
 *   **Disponível em Diversas Plataformas:** Acesse o Finans no seu computador ou celular, de onde estiver.
 
+---
+
 <h2 id="como-usar">3. 📱 Como Usar o Finans?</h2>
 
-1.  **Comece Agora:**
-    Clique no botão abaixo para iniciar sua jornada com o Finans:
+**Comece Agora:** Clique no botão abaixo para iniciar sua jornada com o Finans:
 
-<a href="https://domisnnet.github.io/finans/" target="_blank" rel="noopener noreferrer">
-    <img src="src/img/botão.webp" width="35px" height="35px" alt="Acesse">
-</a>
+<div align="left">
+  <a href="https://domisnnet.github.io/Finans/" target="_blank">
+    <img alt="Botão Acessar" src="src/img/botão.webp" height="70" width="70" />
+  </a>
+</div>
+
+---
 
 2.  **Explore os Recursos:**
     *   **Categorize seus Lançamentos:** Organize seus gastos e receitas por categorias para melhor visualização.
@@ -34,7 +39,9 @@ Comece a organizar suas finanças hoje mesmo! 💰
 3. **Acesse em Diversos Dispositivos:**
     * **O Finans funciona:** no Celular, Tablet ou Desktop.
 
+
 ---
+
 <h2 id="tecnologias-utilizadas">4. ⚙️ Tecnologias Utilizadas</h2>
 
 O Finans foi desenvolvido usando:
