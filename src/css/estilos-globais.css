@@ -1,5 +1,5 @@
 /* =========================
-   Reset e base
+   Reset e Base (Dark Mode)
 ========================= */
 * {
     padding: 0;
@@ -7,165 +7,193 @@
     box-sizing: border-box;
 }
 
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #212529; 
+    font-family: Helvetica, Arial, sans-serif;
+    color: #e9ecef; 
+}
+
+/* =========================
+   Main Content Card (Dark Mode)
+========================= */
+main.container {
+    background-color: #1e1e1e; 
+    border-radius: 8px;
+    border: 1px solid #495057; 
+    padding: 2rem 2.5rem;
+    margin-bottom: 40px;
+    margin-top: 50px; 
+}
+
+#home + main.container {
+    margin-top: -80px;
+    position: relative;
+    z-index: 10;
+}
+
+/* =========================
+   Header Section (`#home`)
+========================= */
 #home {
 	background: #ffc107;
 	color: white;
-	margin-top: 62px;
+    padding-top: 62px;
+    padding-bottom: 120px; 
+}
+
+#home h1 {
+    font-size: 3rem;
+    color: white;
+}
+
+#home p {
+	color: white;
+	font-weight: bolder;
+    font-size: larger;
 }
 
 #home .ajuste {
 	margin-left: 60px;
-	margin-top: 40px;
-	margin-bottom: 0;
+	margin-top: 30px;
+	margin-bottom: -120px;
 }
 
+.divisor {
+    width: 1px;
+    background: white;
+    margin: 12px 15px;
+}
+
+/* =========================
+   Content Sections (`.caixa`)
+========================= */
+.caixa {
+    padding: 40px 0;
+    border-bottom: 2px solid #343a40; 
+}
+
+.caixa:last-of-type {
+    border-bottom: none;
+}
+
+.caixa h1, .caixa h2, .caixa h4, .lead {
+    color: #fff; 
+}
+
+.caixa p {
+	color: #adb5bd; 
+    font-size: larger;
+    font-weight: normal;
+}
+
+/* =========================
+   Navbar
+========================= */
 nav.navbar-transparente {
 	padding: 15px 0;
 	background-color: #ffc107;
 }
 
-.navbar-light .navbar-nav .nav-link {
-	color: white;
-	padding: 20px;
-}
-
-.navbar-link {
-	color: white;
-	text-decoration: none;
-	font-weight: bolder;
-}
-
-#home p {
-    color: white;
-    font-weight: bolder;
-}
-
-.caixa p {
-    color: #6c757d;
-    font-weight: normal;
-}
-
-
-.navbar-link:hover {
-	text-decoration: none;
-	color: white;
-}
-
-.navbar-light .navbar-nav .nav-link:hover {
-	color: black;
-	text-decoration: none;
-}
-
-.navbar-light .navbar-toggler {
-	color: rgba(255, 255, 255, 0.5);
-	border-color: rgba(255, 255, 255, 0.5);
-	padding: 10px 10px;
-	margin: 20PX;
-	border-radius: 10px;
-	border-width: 2px;
-}
-
-.divisor {
-	width: 1px;
-	background: white;
-	margin: 12px 15px;
-}
-
-.caixa {
-	padding: 50px 0;
-	border-bottom: 2px solid #e5e5e5;
-}
-
-p {
-	font-size: larger;
-}
-
+/* =========================
+   Footer
+========================= */
 footer {
-	background-color: #000;
+	background-color: #000; 
+    border-top: none;
 	padding: 50px 20px 20px 20px;
 	position: relative;
+    color: #e9ecef;
 }
 
-footer #media {
-	display: flex;
-	margin-left: -15px;
-	padding-left: -0px;
+footer h4 {
+	color: #ffc107;
+	font-size: 1em;
+	text-transform: uppercase;
 }
-
-footer #medias-sociais {
-	display: flex;
-	margin-left: -15px;
-	padding-left: -0px;
-}
-
-footer #dev {
-	display: flex;
-	font-size: 23px;
-	color: white;
-}
-
-footer #dev:hover {
-	text-decoration: none;
-	color: white;
-}
-
 
 footer .navbar-nav a {
-	display: flex;
-	color: white;
-	font-size: 1em;
+	color: #e9ecef;
+    padding: 5px 0;
 }
 
 footer .navbar-nav a:hover {
-	color: #4c3a02;
-	text-decoration: none;
+	color: #ffc107;
+    text-decoration: none;
 }
 
 footer ul {
 	list-style: none;
 }
 
-footer ul li {
-	float: right;
-	margin: 0px 5px;
+#redes-sociais a {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background: #1e1e1e;
+    color: #e9ecef;
+    text-align: center;
+    margin: 15px;
+    transition: background 0.3s;
+}
+
+#redes-sociais a:hover {
+    background: #ffc107;
+    color: #121212;
+    text-decoration: none;
+}
+
+footer #media,
+footer .social-media-icons {
+    display: flex;
+}
+
+footer #media li,
+footer .social-media-icons li {
+    margin: 0 10px;
+}
+
+#dev {
+    font-size: 23px;
+    color: white;
+}
+
+footer #dev:hover {
+    color: #9bf0e1;
+    text-decoration: none;
+}
+
+.divisor {
+	background: #6c757d;
 }
 
 .externo::after {
     content:'\1F517';
 }
 
-footer h4 {
-	color: white;
-	font-size: 1em;
-	text-transform: uppercase;
-}
-
-
-@media (max-width: 767.98px) { 
-    #home .ajuste {
-        margin-left: 0; 
-    }
-    .caixa {
-        padding-top: 60px; 
-        padding-bottom: 60px;
-    }
-
-    .display-3 {
-        font-size: 2.5rem; 
-    }
-
+/* =========================
+   Media Queries
+========================= */
+@media (max-width: 767.98px) {
     #home {
-        padding-top: 60px;
         padding-bottom: 60px;
     }
-    footer {
-        padding-top: 30px; 
-        padding-bottom: 10px;
-    }
-}
 
-@media (max-width: 767px) {
-    .navbar-brand {
-      padding: 20px;
+    #home + main.container {
+        margin-top: -30px;
+    }
+
+    main.container {
+        padding: 1.5rem 1rem;
+        margin-top: 30px;
+    }
+
+    .display-3, #home h1 {
+        font-size: 2.5rem;
     }
 }
