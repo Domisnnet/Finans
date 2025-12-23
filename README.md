@@ -10,6 +10,8 @@
 Bem-vindo ao Finans, a ferramenta que vai transformar a forma como você lida com suas finanças! Com uma interface intuitiva e recursos poderosos, o Finans ajuda você a organizar suas contas, economizar e alcançar seus objetivos financeiros.
 Comece a organizar suas finanças hoje mesmo! 💰
 
+---
+
 <h2 id="o-que-o-finans-oferece?">2. 🚀 O Que o Finans Oferece?</h2>
 
 *   **Controle Simplificado:** Acompanhe seus gastos e receitas de forma fácil e intuitiva.
