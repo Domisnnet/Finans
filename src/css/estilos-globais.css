@@ -205,6 +205,23 @@ footer .row > div ul {
 /* =========================
    Media Queries
 ========================= */
+@media (min-width: 768px) {
+    footer .row > div {
+        text-align: left;
+        margin-bottom: 0;
+    }
+    footer .row > div ul {
+        justify-content: flex-start;
+    }
+    .footer-bottom {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .footer-bottom p {
+        margin-top: 0;
+    }
+}
+
 @media (max-width: 767.98px) {
     #home {
         padding-bottom: 60px;
