@@ -7,10 +7,9 @@
   # Use https://search.nixos.org/packages to find packages
   packages = [
     # pkgs.go
-    # pkgs.python311
+    pkgs.python311
     # pkgs.python311Packages.pip
     # pkgs.nodejs_20
-    pkgs.nodePackages.http-server
     # pkgs.nodePackages.nodemon
   ];
 
@@ -27,7 +26,7 @@
       enable = true;
       previews = {
         web = {
-          command = ["http-server", "-p", "$PORT"];
+          command = ["python3" "-m" "http.server" "$PORT"];
           manager = "web";
         };
       };
