@@ -1,5 +1,5 @@
 /* =========================
-   Reset e Base (Dark Mode)
+   Reset e Base 
 ========================= */
 * {
     padding: 0;
@@ -18,7 +18,7 @@ body {
 }
 
 /* =========================
-   Main Content Card (Dark Mode)
+   Main Content Card
 ========================= */
 main.container {
     background-color: #1e1e1e; 
@@ -36,7 +36,7 @@ main.container {
 }
 
 /* =========================
-   Header Section (`#home`)
+   Header Section 
 ========================= */
 #home {
 	background: #ffc107;
@@ -74,6 +74,9 @@ main.container {
 .caixa {
     padding: 40px 0;
     border-bottom: 2px solid #343a40; 
+    padding: 30px;
+    border-radius: 15px;
+    margin-top: 100px;
 }
 
 .caixa:last-of-type {
