@@ -17,14 +17,108 @@
     <section class="caixa">
       <div class="container">
         <div class="row">
-          <div class="col-12 text-center my-5">
+          <div class="col-12 text-center mb-5">
             <h1 class="display-4">Central de Ajuda</h1>
             <p class="lead">Precisa de ajuda? Encontre aqui as respostas para as perguntas mais frequentes.</p>
-            <i class="fas fa-question-circle fa-5x text-muted my-4"></i>
-            <h2>Em Breve</h2>
-            <p class="text-muted">Estamos compilando os melhores guias e tutoriais para você. Volte em breve!</p>
           </div>
         </div>
+
+        <!-- Seção de Perguntas Frequentes (FAQ) -->
+        <div class="row">
+          <div class="col-md-10 offset-md-1">
+            <h2 class="mb-4 text-center">Perguntas Frequentes</h2>
+            <div class="accordion" id="faqAccordion">
+
+              <!-- Item 1 -->
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Como faço para adicionar uma nova transação?
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#faqAccordion">
+                  <div class="card-body">
+                    É simples! Após fazer login, clique no botão "Adicionar Lançamento" no seu painel principal. Preencha os campos de descrição, valor, data e categoria, e depois clique em "Salvar".
+                  </div>
+                </div>
+              </div>
+
+              <!-- Item 2 -->
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      O Finans é realmente gratuito?
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqAccordion">
+                  <div class="card-body">
+                    Sim! O Finans é um projeto de código aberto e totalmente gratuito. A versão atual é uma simulação para fins de aprendizado e portfólio, sem custos ou planos de assinatura.
+                  </div>
+                </div>
+              </div>
+
+              <!-- Item 3 -->
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Meus dados financeiros estão seguros?
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqAccordion">
+                  <div class="card-body">
+                    Totalmente. A versão atual do Finans não armazena nenhuma informação em servidores. Todos os dados que você insere são processados e guardados apenas no seu navegador, de forma local. Ao fechar a página, os dados são perdidos. Leia nossa <a href="politica-de-privacidade.html">Política de Privacidade</a> para mais detalhes.
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Seção de Links Úteis -->
+        <div class="row mt-5">
+            <div class="col-12 text-center mb-4">
+                <h2>Ainda com Dúvidas?</h2>
+                <p>Explore outras áreas do nosso site ou entre em contato.</p>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 text-center">
+                    <div class="card-body">
+                        <i class="fas fa-cogs fa-3x text-primary mb-3"></i>
+                        <h5 class="card-title">Funcionalidades</h5>
+                        <p class="card-text">Veja em detalhes tudo o que o Finans oferece para você.</p>
+                        <a href="funcionalidades.html" class="btn btn-outline-primary">Ver Funcionalidades</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 text-center">
+                    <div class="card-body">
+                        <i class="fas fa-file-contract fa-3x text-primary mb-3"></i>
+                        <h5 class="card-title">Termos de Uso</h5>
+                        <p class="card-text">Entenda as regras e condições para utilizar nosso serviço.</p>
+                        <a href="termos-de-uso.html" class="btn btn-outline-primary">Ler Termos</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 text-center">
+                    <div class="card-body">
+                        <i class="fas fa-envelope fa-3x text-primary mb-3"></i>
+                        <h5 class="card-title">Contato</h5>
+                        <p class="card-text">Ainda precisa de ajuda? Fale conosco (página em breve).</p>
+                        <a href="#" class="btn btn-outline-secondary disabled">Entrar em Contato</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
       </div>
     </section>
   </main> 
