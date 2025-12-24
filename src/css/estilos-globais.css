@@ -181,6 +181,28 @@ footer .row > div ul {
 }
 
 /* =========================
+   Ícones e utilidades
+========================= */
+.externo::after {
+    content: '\1F517';
+}
+
+.devicon-img {
+    width: 60px;
+    height: 55px;
+}
+
+.social-icon {
+    width: 45px;
+    padding-top: 10px;
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}
+
+/* =========================
    Media Queries
 ========================= */
 @media (max-width: 767.98px) {
