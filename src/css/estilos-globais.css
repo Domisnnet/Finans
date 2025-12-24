@@ -93,7 +93,7 @@ main.container {
 /* =========================
    Navbar
 ========================= */
-nav.navbar-transparente {
+nav.navbar {
 	padding: 15px 0;
 	background-color: #ffc107;
 }
@@ -102,60 +102,43 @@ nav.navbar-transparente {
    Footer
 ========================= */
 footer {
-	background-color: #000; 
-    border-top: none;
-	padding: 50px 20px 20px 20px;
-	position: relative;
-    color: #e9ecef;
+    background: #000;
+    padding: 50px 0 20px 0;
+    position: relative;
+    border-top: 1px solid #333;
 }
 
 footer h4 {
-	color: #ffc107;
-	font-size: 1em;
-	text-transform: uppercase;
+    color: #919496;
+    font-size: 1em;
+    text-transform: uppercase;
+    margin-bottom: 15px;
 }
 
-footer .navbar-nav a {
-	color: #e9ecef;
-    padding: 5px 0;
+footer .navbar-nav a, footer .footer-bottom a {
+    color: white;
+    font-size: 1em;
+    transition: color 0.3s ease;
 }
 
-footer .navbar-nav a:hover {
-	color: #ffc107;
+footer .navbar-nav a:hover, footer .footer-bottom a:hover {
+    color: #9bf0e1;
     text-decoration: none;
 }
 
 footer ul {
-	list-style: none;
+    list-style: none;
+    padding-left: 0;
 }
 
-/* Devicon Icons Styling */
-#dev-icons i {
-    font-size: 3rem;  
-    margin-right: 15px; 
-}
-
-#dev-icons i:last-child {
-    margin-right: 0;
-}
-
-#redes-sociais a {
+footer #media,
+footer .social-media-icons {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background: #1e1e1e;
-    color: #e9ecef;
-    text-align: center;
-    margin-right: 10px;
-    transition: background 0.3s;
 }
 
-#redes-sociais a:hover {
-    color: #121212;
-    text-decoration: none;
+footer #media li,
+footer .social-media-icons li {
+    margin: 0 10px;
 }
 
 #dev {
@@ -163,17 +146,38 @@ footer ul {
     color: white;
 }
 
-#dev:hover {
+footer #dev:hover {
     color: #9bf0e1;
     text-decoration: none;
 }
 
-.divisor {
-	background: #6c757d;
+.link-interno {
+    color: #1DB954; 
+    text-decoration: none;
 }
 
-.externo::after {
-    content:'\1F517';
+.link-interno:hover {
+    text-decoration: underline;
+}
+
+.list-inline .divisor {
+    height: 1em;
+    vertical-align: middle;
+}
+
+footer .row > div {
+    text-align: center;
+    margin-bottom: 25px;
+}
+footer .row > div ul {
+    justify-content: center;
+}
+.footer-bottom {
+    flex-direction: column;
+    align-items: center;
+}
+.footer-bottom p {
+    margin-top: 1rem;
 }
 
 /* =========================
