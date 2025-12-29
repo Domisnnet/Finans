@@ -115,6 +115,102 @@ body:not(#home) .caixa {
 }
 
 /* =========================
+   FAQ Accordion Styles
+========================= */
+#faqAccordion .card {
+    background-color: #282828;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+#faqAccordion .card-header {
+    background-color: #282828;
+    border-radius: 8px;
+    padding: 15px 20px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+#faqAccordion .card-header:hover {
+    background-color: #3a3a3a;
+}
+
+#faqAccordion .btn-link {
+    width: 100%;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#faqAccordion .btn-link:hover {
+    color: white;
+    text-decoration: none;
+}
+
+#faqAccordion .btn-link:focus,
+#faqAccordion .btn-link.focus {
+    text-decoration: none;
+    box-shadow: none;
+}
+
+#faqAccordion .card-body {
+    background-color: #282828;
+    color: #b3b3b3;
+    padding: 0 20px 20px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+#faqAccordion .collapse.show + .card-header {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#faqAccordion .collapse.show .card-body {
+    padding-top: 15px;
+}
+
+/* =========================
+   Duvidas Section Styles
+========================= */
+
+#duvidas .card {
+    background-color: #282828;
+    border: 1px solid #444;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#duvidas .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+#duvidas .card-title {
+    color: white;
+}
+
+#duvidas .card-text {
+    color: #b3b3b3;
+}
+
+#duvidas .fas {
+    color: #ffc107;
+}
+
+#duvidas .btn-outline-primary {
+    border-color: #ffc107;
+    color: #ffc107;
+}
+
+#duvidas .btn-outline-primary:hover {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+/* =========================
    Layout de rodapé fixo
 ========================= */ 
 body:not(#home) {
@@ -151,6 +247,18 @@ nav.navbar {
     width: 1px;
     background: white;
     margin: 12px 15px;
+}
+
+/* =========================
+   Complementos
+========================= */
+main .link-interno {
+    color: #1DB954; 
+    text-decoration: none;
+}
+
+main .link-interno:hover {
+    text-decoration: none;
 }
 
 /* =========================
