@@ -35,6 +35,17 @@ main.container {
     z-index: 10;
 }
 
+#mulher {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    margin-bottom: -60px;
+}
+
+#ajuste {
+    top: 100px;
+}
+
 /* =========================
    Header Section 
 ========================= */
@@ -42,7 +53,7 @@ main.container {
 	background: #ffc107;
 	color: white;
     padding-top: 62px;
-    padding-bottom: 120px; 
+    padding-bottom: 218px; 
 }
 
 #home h1 {
@@ -54,12 +65,6 @@ main.container {
 	color: white;
 	font-weight: bolder;
     font-size: larger;
-}
-
-#home .ajuste {
-	margin-left: 60px;
-	margin-top: 30px;
-	margin-bottom: -120px;
 }
 
 .divisor {
