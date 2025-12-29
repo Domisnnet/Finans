@@ -376,47 +376,75 @@ footer .row > div ul {
 }
 
 /* =========================
-   Depoimentos Section
+   Depoimentos Section (Carousel)
 ========================= */
 #depoimentos .depoimento {
     background-color: #282828;
     border: 1px solid #444;
     border-radius: 8px;
-    padding: 30px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     height: 100%;
-    position: relative;
-    padding-top: 50px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-#depoimentos .depoimento::before {
-    content: '\f10d';
-    font-family: 'Font Awesome 5 Free';
-    font-weight: 900;
-    font-size: 2rem;
-    color: #ffc107;
-    position: absolute;
-    top: 15px;
-    left: 20px;
+#depoimentos .depoimento:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 
 #depoimentos .depoimento-texto {
     font-size: 1rem;
-    line-height: 1.6;
+    line-height: 1.5;
     color: #e9ecef;
     flex-grow: 1;
     font-style: italic;
-    margin-bottom: 15px;
 }
 
 #depoimentos .depoimento-autor {
     font-size: 1rem;
     color: #ffc107;
     font-weight: bold;
-    text-align: right;
+    margin-top: 15px;
 }
 
+#depoimentos .carousel-control-prev, 
+#depoimentos .carousel-control-next {
+    width: 50px;
+    height: 50px;
+    background-color: #3a3a3a;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.7;
+    transition: all 0.3s ease;
+}
+
+#depoimentos .carousel-control-prev:hover, 
+#depoimentos .carousel-control-next:hover {
+    opacity: 1;
+    background-color: #495057;
+}
+
+#depoimentos .carousel-control-prev {
+    left: -25px;
+}
+
+#depoimentos .carousel-control-next {
+    right: -25px;
+}
+
+#depoimentos .carousel-control-prev-icon, 
+#depoimentos .carousel-control-next-icon {
+    display: none; /* Hide default icons */
+}
+
+#depoimentos .fa-chevron-left, 
+#depoimentos .fa-chevron-right {
+    color: #fff;
+    font-size: 1.2rem;
+}
 
 /* =========================
    CTA Section
@@ -465,6 +493,13 @@ footer .row > div ul {
     .footer-bottom p {
         margin-top: 0;
     }
+    #depoimentos .carousel-control-prev {
+        left: -60px;
+    }
+    
+    #depoimentos .carousel-control-next {
+        right: -60px;
+    }
 }
 
 @media (max-width: 767.98px) {
@@ -488,6 +523,10 @@ footer .row > div ul {
     #depoimentos .depoimento-texto {
         font-size: 1rem;
         min-height: 0;
+    }
+
+    #depoimentos .carousel-control-prev, #depoimentos .carousel-control-next {
+        display: none;
     }
 }
 

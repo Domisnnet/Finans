@@ -87,36 +87,72 @@
       </div>
     </section>
     <section id="depoimentos" class="caixa">
-        <div class="container">
-            <div class="conteudo-interno">
-                <div class="row">
-                    <div class="col-12 text-center mb-5">
-                        <h2 class="display-4">O que nossos usuários dizem</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 mb-4 d-flex">
-                        <div class="depoimento">
-                            <p class="depoimento-texto">"O Finans mudou minha vida financeira! Finalmente sei para onde meu dinheiro vai e consigo economizar para meus sonhos."</p>
-                            <p class="depoimento-autor">- Joana S.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4 d-flex">
-                        <div class="depoimento">
-                            <p class="depoimento-texto">"A interface é super intuitiva e os alertas de contas a pagar me salvaram várias vezes. Recomendo para todos!"</p>
-                            <p class="depoimento-autor">- Marcos P.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4 d-flex">
-                        <div class="depoimento">
-                            <p class="depoimento-texto">"Finalmente uma ferramenta que me ajuda a visualizar minhas finanças de forma clara. O Finans é essencial para quem busca organização."</p>
-                            <p class="depoimento-autor">- Carla M.</p>
-                        </div>
-                    </div>
+    <div class="container">
+        <div class="conteudo-interno">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="display-4">O que nossos usuários dizem</h2>
                 </div>
             </div>
+            <div id="carouselDepoimentos" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-4 mb-4 d-flex">
+                                <div class="depoimento">
+                                    <p class="depoimento-texto">"O Finans mudou minha vida financeira! Finalmente sei para onde meu dinheiro vai e consigo economizar para meus sonhos."</p>
+                                    <p class="depoimento-autor">- Joana S.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4 d-flex">
+                                <div class="depoimento">
+                                    <p class="depoimento-texto">"A interface é super intuitiva e os alertas de contas a pagar me salvaram várias vezes. Recomendo para todos!"</p>
+                                    <p class="depoimento-autor">- Marcos P.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4 d-flex">
+                                <div class="depoimento">
+                                    <p class="depoimento-texto">"Finalmente uma ferramenta que me ajuda a visualizar minhas finanças de forma clara. O Finans é essencial para quem busca organização."</p>
+                                    <p class="depoimento-autor">- Carla M.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-4 mb-4 d-flex">
+                                <div class="depoimento">
+                                    <p class="depoimento-texto">"O app é fantástico! Consigo ver relatórios detalhados que me ajudam a planejar o futuro. Essencial para a saúde financeira."</p>
+                                    <p class="depoimento-autor">- Ricardo F.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4 d-flex">
+                                <div class="depoimento">
+                                    <p class="depoimento-texto">"Uso o Finans todos os dias para registrar meus gastos. A simplicidade e o poder dos gráficos me conquistaram."</p>
+                                    <p class="depoimento-autor">- Patrícia L.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4 d-flex">
+                                <div class="depoimento">
+                                    <p class="depoimento-texto">"Estava perdido em minhas contas, mas o Finans trouxe a luz que eu precisava. O recurso de metas é um grande motivador."</p>
+                                    <p class="depoimento-autor">- Fernando G.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselDepoimentos" role="button" data-slide="prev">
+                  <i class="fas fa-chevron-left"></i>
+                  <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselDepoimentos" role="button" data-slide="next">
+                  <i class="fas fa-chevron-right"></i>
+                  <span class="sr-only">Próximo</span>
+                </a>
+            </div>
         </div>
-    </section>
+    </div>
+</section>
     <section id="cta-final" class="cta-section">
       <div class="container text-center">
         <h2 class="display-4">Pronto para assumir o controle?</h2>
@@ -130,5 +166,6 @@
   <script src="vendor/popper/popper.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
   <script src="src/js/template-loader.js" defer></script>
+  <script src="src/js/carousel-config.js"></script>
 </body>
 </html>
