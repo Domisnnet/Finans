@@ -390,6 +390,7 @@ footer .row > div ul {
 }
 
 #depoimentos .depoimento:hover {
+    transform: translateY(-5px);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 
@@ -502,8 +503,12 @@ footer .row > div ul {
 }
 
 @media (max-width: 767.98px) {
+    #header-placeholder .container { 
+        padding: 0 1rem;
+    }
+
     #home {
-        padding-bottom: 130px;
+        padding-bottom: 60px;
     }
 
     #home + main.container {
