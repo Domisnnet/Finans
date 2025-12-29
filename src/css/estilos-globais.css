@@ -17,22 +17,16 @@ body {
     color: #e9ecef; 
 }
 
-/* =========================
-   Main Content Card
-========================= */
-main.container {
-    background-color: #1e1e1e; 
-    border-radius: 8px;
-    border: 1px solid #495057; 
-    padding: 2rem 2.5rem;
-    margin-bottom: 40px;
-    margin-top: 50px; 
-}
 
 #home + main.container {
     margin-top: -80px;
     position: relative;
     z-index: 10;
+    background-color: #1e1e1e; 
+    border-radius: 8px;
+    border: 1px solid #495057; 
+    padding: 2rem 2.5rem;
+    margin-bottom: 40px;
 }
 
 #mulher {
@@ -178,6 +172,61 @@ body:not(#home) .caixa {
 }
 
 /* =========================
+   Pricing Page Styles
+========================= */
+.card-plano {
+    background-color: #282828;
+    border: 1px solid #444;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-plano:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.card-plano .card-header {
+    background-color: #3a3a3a;
+    border-bottom: 1px solid #444;
+}
+
+.card-plano .card-body {
+    flex-grow: 1;
+    color: #e9ecef;
+}
+
+.card-plano .card-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.card-plano .list-unstyled li {
+    color: #adb5bd;
+    padding: 0.5rem 0;
+}
+
+.card-plano .card-footer {
+    background-color: #282828;
+    border-top: none;
+    padding: 1.25rem;
+}
+
+.card-destaque {
+    border-color: #ffc107;
+    border-width: 2px;
+}
+
+.card-destaque .card-header {
+    background-color: #ffc107;
+    color: #212529;
+    font-weight: bold;
+}
+
+/* =========================
    Duvidas Section Styles
 ========================= */
 
@@ -205,12 +254,12 @@ body:not(#home) .caixa {
     color: #ffc107;
 }
 
-#duvidas .btn-outline-primary {
+.btn-outline-primary {
     border-color: #ffc107;
     color: #ffc107;
 }
 
-#duvidas .btn-outline-primary:hover {
+.btn-outline-primary:hover {
     background-color: #ffc107;
     color: #212529;
 }
