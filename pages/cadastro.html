@@ -9,58 +9,40 @@
   <link rel="stylesheet" href="../vendor/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="../vendor/fontawesome/css/all.min.css">
   <link rel="stylesheet" type="text/css" href="../src/css/estilos-globais.css">
-  <style>
-    body {
-      background-color: #f8f9fa;
-    }
-    .cadastro-container {
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-    }
-    .card-cadastro {
-      max-width: 450px;
-      margin: auto;
-      border: none;
-      border-radius: 1rem;
-      box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
-    }
-    .card-header {
-      border-top-left-radius: 1rem;
-      border-top-right-radius: 1rem;
-    }
-  </style>
 </head>
-<body data-base="../"> 
-  <div id="header-placeholder"></div>    
-  <main class="cadastro-container">
+<body data-base="../">
+  <div id="header-placeholder"></div>
+  <main class="caixa">
     <div class="container">
-      <div class="card card-cadastro">
-        <div class="card-header bg-success text-white text-center py-4">
-          <h2 class="mb-0">Crie sua Conta Grátis</h2>
-        </div>
-        <div class="card-body p-4 p-md-5">
-          <form>
-            <div class="form-group mb-4">
-              <label for="nome" class="font-weight-bold">Nome Completo</label>
-              <input type="text" class="form-control form-control-lg" id="nome" placeholder="Seu nome" required>
+      <div class="conteudo-interno">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-md-10">
+            <div class="text-center mb-5">
+              <h1 class="display-4">Crie sua Conta</h1>
+              <p class="lead">É rápido, fácil e gratuito. Comece a organizar suas finanças agora mesmo.</p>
             </div>
-            <div class="form-group mb-4">
-              <label for="email" class="font-weight-bold">E-mail</label>
-              <input type="email" class="form-control form-control-lg" id="email" placeholder="seuemail@exemplo.com" required>
+            <form>
+              <div class="form-group mb-4">
+                <label for="nome" class="font-weight-bold">Nome Completo</label>
+                <input type="text" class="form-control form-control-lg" id="nome" placeholder="Seu nome" required>
+              </div>
+              <div class="form-group mb-4">
+                <label for="email" class="font-weight-bold">E-mail</label>
+                <input type="email" class="form-control form-control-lg" id="email" placeholder="seuemail@exemplo.com" required>
+              </div>
+              <div class="form-group mb-4">
+                <label for="password" class="font-weight-bold">Crie uma Senha</label>
+                <input type="password" class="form-control form-control-lg" id="password" placeholder="Mínimo de 6 caracteres" required>
+              </div>
+              <div class="form-group form-check mb-4">
+                <input type="checkbox" class="form-check-input" id="termos" required>
+                <label class="form-check-label" for="termos">Eu li e concordo com os <a href="termos-de-uso.html" class="link-interno">Termos de Uso</a>.</label>
+              </div>
+              <button type="submit" class="btn btn-lg btn-block btn-outline-primary">Criar minha conta</button>
+            </form>
+            <div class="text-center mt-4">
+              <p>Já tem uma conta? <a href="login.html" class="link-interno">Faça login</a></p>
             </div>
-            <div class="form-group mb-4">
-              <label for="password" class="font-weight-bold">Crie uma Senha</label>
-              <input type="password" class="form-control form-control-lg" id="password" placeholder="Mínimo de 6 caracteres" required>
-            </div>
-            <div class="form-group form-check mb-4">
-              <input type="checkbox" class="form-check-input" id="termos" required>
-              <label class="form-check-label" for="termos">Eu li e concordo com os <a href="termos-de-uso.html" target="_blank">Termos de Uso</a>.</label>
-            </div>
-            <button type="submit" class="btn btn-success btn-lg btn-block">Criar minha conta</button>
-          </form>
-          <div class="text-center mt-4">
-            <p>Já tem uma conta? <a href="login.html">Faça login</a></p>
           </div>
         </div>
       </div>

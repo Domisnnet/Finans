@@ -1,114 +1,125 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="KingDomfy - O seu clone de player de música favorito. Descubra novas músicas, crie playlists e aproveite o melhor do streaming.">
-  <title>Finans - Sistema de controle financeiro</title>
+  <meta name="description" content="Finans - O seu sistema de controle financeiro. Organize suas contas, planeje seu futuro e alcance seus sonhos.">
+  <title>Finans - Seu sistema de controle financeiro</title>
   <link rel="icon" href="src/imagens/favicon.ico">
   <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="vendor/fontawesome/css/all.min.css">
-  <link rel="stylesheet" href="vendor/devicons/devicons.min.css">
   <link rel="stylesheet" type="text/css" href="src/css/estilos-globais.css">
 </head>
 <body data-base="./"> 
   <div id="header-placeholder"></div>    
   <main>
-    <section id="home">
+    <section id="home" class="hero-section">
       <div class="container">
-        <div class="row">
-          <div class="col-12 col-md-6 d-flex"> 
-            <div class="align-self-center">
-              <h1 class="display-3">Suas contas, descomplicadas</h1>
-              <p>
-                Usado por mais de 1 Milhão de pessosas, o Finans é uma ferramenta online que vai facilitar a sua vida financeira.
-              </p>
-              <form class="mt-4 mb-4">
-                <div class="input-group">
-                  <input type="text" placeholder="Seu e-mail" class="form-control">
-                  <div class="input-group-append">
-                    <button type="button" class="btn btn-primary">Cadastre-se</button>
-                  </div>
-                </div>
-              </form>
-              <p>Disponível para:
-                <a href="">
-                  <img src="src/imagens/android.png" width="50px">
-                </a>
-                <a href="">
-                  <img src="src/imagens/apple.png" width="65px">
-                  </a>
-              </p>
-            </div>
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <h1 class="display-3">Controle seus gastos, alcance seus sonhos.</h1>
+            <p class="lead my-4">A ferramenta definitiva para uma vida financeira organizada. Junte-se a milhares de usuários e transforme sua relação com o dinheiro.</p>
+            <a href="pages/cadastro.html" class="btn btn-primary btn-lg">Comece Agora, é Grátis</a>
           </div>
-          <div class="col-12 col-md-6 d-none d-md-block">
-            <img class="ajuste img-fluid" src="src/imagens/capa-mulher.png">
+          <div class="col-md-6 d-none d-md-block text-center">
+            <img class="img-fluid" src="src/imagens/capa-mulher.png">
           </div>
         </div>
       </div>
     </section>
+
     <section class="caixa">
       <div class="container">
-        <div class="row">
-          <div class="col-md-6 d-flex">
-            <div class="align-self-center">
+        <div class="conteudo-interno">
+          <div class="row align-items-center mb-5">
+            <div class="col-md-6 text-center">
+              <img src="src/imagens/saiba.png" class="img-fluid rounded">
+            </div>
+            <div class="col-md-6">
               <h2>Saiba para onde vai o seu dinheiro</h2>
-              <p>
-                Com o Finans, você categoriza todos os seus lançamentos.
-                Com gráficos simples, você sabe de onde vem e para onde vai o seu dinheiro.
-              </p>
-              <a href="" class="btn btn-primary">Veja mais</a>
+              <p>Com o Finans, você categoriza todos os seus lançamentos. Com gráficos simples, você sabe de onde vem e para onde vai o seu dinheiro.</p>
+              <a href="pages/funcionalidades.html" class="btn btn-outline-primary">Veja mais</a>
             </div>
           </div>
-          <div class="col-md-6">
-            <img src="src/imagens/saiba.png" class="img-fluid">
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="caixa">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-              <img src="src/imagens/juros.png" class="img-fluid">
+
+          <div class="row align-items-center">
+            <div class="col-md-6 order-md-2 text-center">
+              <img src="src/imagens/juros.png" class="img-fluid rounded">
             </div>
-            <div class="col-md-6 d-flex">
-            <div class="align-self-center">
-              <h2>Pare de pagar juroe e economize</h2>
-              <p>
-                Manter as contas em dia é sempre um problema? O Finans avisa você: receba alertas de contas a pagar e a receber!
-              </p>
-              <a href="" class="btn btn-primary">Veja mais</a>
+            <div class="col-md-6 order-md-1">
+              <h2>Pare de pagar juros e economize</h2>
+              <p>Manter as contas em dia é sempre um problema? O Finans avisa você: receba alertas de contas a pagar e a receber!</p>
+              <a href="pages/funcionalidades.html" class="btn btn-outline-primary">Veja mais</a>
             </div>
           </div>
         </div>
       </div>
     </section> 
-    <section class="caixa">
+
+    <section id="recursos" class="caixa">
       <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <img src="src/imagens/facil.png" class="img-fluid">
-            <h4>Fácil de usar</h4>
-            <p>
-              O finans vai além do básico e permite que você faça controles incríveis, essenciais para suas finanças.Simples como tem que ser!
-            </p>
-          </div>
-          <div class="col-md-4">
-            <img src="src/imagens/economize.png" class="img-fluid">
-            <h4>Economize seu tempo</h4>
-            <p>
-              Tempo é dinheiro! Em segundos, você tem tudo sob controle e aproveite o seu tempo como que realmente importa para você!
-            </p>
-          </div>
-          <div class="col-md-4">
-            <img src="src/imagens/suporte.png" class="img-fluid">
-            <h4>Suporte amigo</h4>
-            <p>
-              Dúvidas? Perguntas? nosso suporte super legal ajuda você! A gente tá aqui pra resolver seus problemas e deixar sua vida bem mais fácil!
-            </p>
+        <div class="conteudo-interno">
+          <div class="row text-center">
+            <div class="col-12 mb-5">
+              <h2 class="display-4">Recursos Feitos para Você</h2>
+              <p class="lead">Tudo o que você precisa para ter uma vida financeira saudável.</p>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="recurso-item">
+                <i class="fas fa-piggy-bank fa-3x mb-3"></i>
+                <h4>Orçamento Inteligente</h4>
+                <p>Defina metas de gastos por categoria e acompanhe seu progresso em tempo real.</p>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="recurso-item">
+                <i class="fas fa-chart-pie fa-3x mb-3"></i>
+                <h4>Relatórios Claros</h4>
+                <p>Visualize seus dados financeiros de forma intuitiva com gráficos e relatórios detalhados.</p>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="recurso-item">
+                <i class="fas fa-bell fa-3x mb-3"></i>
+                <h4>Alertas de Contas</h4>
+                <p>Nunca mais esqueça uma data de vencimento com nosso sistema de notificações.</p>
+              </div>
+            </div>
           </div>
         </div>
+      </div>
+    </section>
+
+    <section id="depoimentos" class="depoimentos-section">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-12 mb-5">
+            <h2 class="display-4">O que nossos usuários dizem</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-5 mb-4">
+            <div class="depoimento">
+              <p class="depoimento-texto">"O Finans mudou minha vida financeira! Finalmente sei para onde meu dinheiro vai e consigo economizar para meus sonhos."</p>
+              <p class="depoimento-autor">- Joana S.</p>
+            </div>
+          </div>
+          <div class="col-md-5 mb-4">
+            <div class="depoimento">
+              <p class="depoimento-texto">"A interface é super intuitiva e os alertas de contas a pagar me salvaram várias vezes. Recomendo para todos!"</p>
+              <p class="depoimento-autor">- Marcos P.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cta-final" class="cta-section">
+      <div class="container text-center">
+        <h2 class="display-4">Pronto para assumir o controle?</h2>
+        <p class="lead my-4">Crie sua conta gratuita e comece a transformar sua vida financeira hoje mesmo.</p>
+        <a href="pages/cadastro.html" class="btn btn-outline-light btn-lg">Crie sua conta grátis</a>
       </div>
     </section>
   </main> 
