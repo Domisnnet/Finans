@@ -376,29 +376,81 @@ footer .row > div ul {
 }
 
 /* =========================
-   Media Queries
+   Depoimentos Section
 ========================= */
-@media (min-width: 771px) {
-    footer .row > div {
-        text-align: left;
-        margin-bottom: 0;
-    }
-    footer .row > div ul {
-        justify-content: flex-start;
-    }
-    .footer-bottom {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    .footer-bottom p {
-        margin-top: 0;
-    }
-    #mulher {
-        display: none;
-    }
+#depoimentos .depoimento {
+    background-color: #282828;
+    border: 1px solid #444;
+    border-radius: 8px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+    padding-top: 50px;
 }
 
-@media (min-width: 770px) {
+#depoimentos .depoimento::before {
+    content: '\f10d';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 2rem;
+    color: #ffc107;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+#depoimentos .depoimento-texto {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #e9ecef;
+    flex-grow: 1;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+#depoimentos .depoimento-autor {
+    font-size: 1rem;
+    color: #ffc107;
+    font-weight: bold;
+    text-align: right;
+}
+
+
+/* =========================
+   CTA Section
+========================= */
+.cta-section {
+    background: #ffc107;
+    color: #212529;
+    padding: 60px 0;
+    border-bottom: none;
+}
+
+.cta-section h2 {
+    color: #212529 !important;
+}
+
+.cta-section .lead {
+     color: #212529 !important;
+}
+
+.cta-section .btn-outline-light {
+    border-color: #212529;
+    color: #212529;
+    font-weight: bold;
+}
+
+.cta-section .btn-outline-light:hover {
+    background-color: #212529;
+    color: #ffc107;
+}
+
+/* =========================
+   Media Queries
+========================= */
+@media (min-width: 768px) {
     footer .row > div {
         text-align: left;
         margin-bottom: 0;
@@ -412,15 +464,12 @@ footer .row > div ul {
     }
     .footer-bottom p {
         margin-top: 0;
-    }
-    #mulher {
-        display: none;
     }
 }
 
 @media (max-width: 767.98px) {
     #home {
-        padding-bottom: 130px;
+        padding-bottom: 60px;
     }
 
     #home + main.container {
@@ -435,4 +484,15 @@ footer .row > div ul {
     .display-3, #home h1 {
         font-size: 2.5rem;
     }
+
+    #depoimentos .depoimento-texto {
+        font-size: 1rem;
+        min-height: 0;
+    }
+}
+
+@media (max-width: 768px) {
+  #mulher {
+    display: none;
+  }
 }
