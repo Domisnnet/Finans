@@ -41,7 +41,7 @@ body {
 }
 
 /* =========================
-   Header Section 
+   Seção de Cabeçalho
 ========================= */
 #home {
 	background: #ffc107;
@@ -68,7 +68,7 @@ body {
 }
 
 /* =========================
-   Content Sections
+   Seções de Conteúdo
 ========================= */
 .caixa {
     padding: 40px 0;
@@ -114,7 +114,7 @@ body:not(#home) .caixa {
 }
 
 /* =========================
-   FAQ Accordion Styles
+   Estilos do Acordeão de FAQ
 ========================= */
 #faqAccordion .card {
     background-color: #282828;
@@ -172,7 +172,7 @@ body:not(#home) .caixa {
 }
 
 /* =========================
-   Pricing Page Styles
+    Estilos da Página de Planos
 ========================= */
 .card-plano {
     background-color: #282828;
@@ -184,7 +184,6 @@ body:not(#home) .caixa {
 }
 
 .card-plano:hover {
-    transform: translateY(-5px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
 }
 
@@ -227,7 +226,7 @@ body:not(#home) .caixa {
 }
 
 /* =========================
-   Duvidas Section Styles
+   Estilos da Seção de Dúvidas
 ========================= */
 
 #duvidas .card {
@@ -425,7 +424,7 @@ footer .row > div ul {
 }
 
 /* =========================
-   Depoimentos Section (Carousel)
+    Seção de Depoimentos
 ========================= */
 #depoimentos .depoimento {
     background-color: #282828;
@@ -496,7 +495,7 @@ footer .row > div ul {
 }
 
 /* =========================
-   CTA Section
+   Seção de Chamada para Ação
 ========================= */
 .cta-section {
     background: #ffc107;
