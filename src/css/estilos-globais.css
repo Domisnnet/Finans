@@ -31,13 +31,13 @@ body {
 
 #mulher {
     position: absolute;
-    top: 60px;
+    top: 136px;
     right: 0;
-    margin-bottom: -60px;
+    
 }
 
 #ajuste {
-    top: 100px;
+    top: 30px;
 }
 
 /* =========================
@@ -107,9 +107,6 @@ body {
 
 .conteudo-interno h2, .conteudo-interno p, .conteudo-interno label {
     color: white;
-}
-
-body:not(#home) .caixa {
 }
 
 /* =========================
