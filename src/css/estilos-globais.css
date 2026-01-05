@@ -110,7 +110,6 @@ body {
 }
 
 body:not(#home) .caixa {
-    flex-grow: 1;
 }
 
 /* =========================
