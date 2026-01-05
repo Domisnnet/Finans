@@ -337,6 +337,10 @@ footer .navbar-nav a, footer .footer-bottom a {
     transition: color 0.3s ease;
 }
 
+.footer-link {
+    padding: 5px 0;
+}
+
 footer .navbar-nav a:hover, footer .footer-bottom a:hover {
     color: #9bf0e1;
     text-decoration: none;
