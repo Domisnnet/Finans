@@ -4,6 +4,13 @@
   "description": "Projeto Finans - um site de gerenciamento financeiro.",
   "main": "index.html",
   "scripts": {
+    "clean": "rimraf dist",
+    "create-dirs": "mkdir -p dist/src/css && mkdir -p dist/src/js",
+    "copy:assets": "cpx \"src/imagens/**/*\" \"dist/src/imagens\" && cpx \"vendor/**/*\" \"dist/vendor\" && cpx \"templates/**/*\" \"dist/templates\"",
+    "minify:html": "html-minifier --input-dir . --output-dir dist --file-ext html --remove-comments --collapse-whitespace --ignore-custom-fragments \"<div align=\\\"left\\\">\" --ignore-custom-fragments \"<div align=\\\"center\\\">\"",
+    "minify:css": "cleancss -o dist/src/css/estilos-globais.css src/css/estilos-globais.css",
+    "minify:js": "uglifyjs src/js/carousel-config.js -o dist/src/js/carousel-config.js -c -m && uglifyjs src/js/template-loader.js -o dist/src/js/template-loader.js -c -m",
+    "build": "npm-run-all clean create-dirs copy:assets minify:css minify:js minify:html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +29,7 @@
     "html-minifier": "^4.0.0",
     "clean-css-cli": "^5.6.3",
     "uglify-js": "^3.19.1",
-    "npm-run-all": "^4.1.5"
+    "npm-run-all": "^4.1.5",
+    "mkdirp": "^1.0.4"
   }
 }

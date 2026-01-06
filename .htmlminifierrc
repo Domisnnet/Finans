@@ -1,0 +1,18 @@
+{
+  "file-ext": "html",
+  "input-dir": ".",
+  "output-dir": "dist",
+  "remove-comments": true,
+  "collapse-whitespace": true,
+  "ignoreCustomFragments": [
+    "<div align=\\\"left\\\">",
+    "<div align=\\\"center\\\">"
+  ],
+  "files": [
+    "index.html",
+    "pages/contato.html",
+    "pages/funcionalidades.html",
+    "pages/precos.html",
+    "pages/sobre.html"
+  ]
+}
