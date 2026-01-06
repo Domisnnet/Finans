@@ -7,79 +7,18 @@
   <link rel="stylesheet" href="{{BASE}}dist/vendor/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="{{BASE}}dist/vendor/fontawesome/css/all.min.css">
   <link rel="stylesheet" href="{{BASE}}dist/src/css/estilos-globais.css">
-  <style>
-    .card-link {
-      text-decoration: none;
-      color: inherit;
-    }
-    .card-link .card {
-      transition: transform 0.2s, box-shadow 0.2s;
-    }
-    .card-link .card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-    }
-    .card-icon {
-      font-size: 2.5rem;
-      margin-bottom: 1rem;
-    }
-  </style>
 </head>
 <body>
 
   <div id="header-placeholder"></div>
 
   <main class="container py-5">
-    <div class="text-center mb-5">
-      <h1>Central de Informações</h1>
-      <p class="lead">Acesse nossos recursos, políticas e informações importantes.</p>
-    </div>
-
-    <div class="row">
-      <div class="col-md-6 col-lg-3 mb-4">
-        <a href="{{BASE}}pages/funcionalidades.html" class="card-link">
-          <div class="card text-center h-100">
-            <div class="card-body">
-              <i class="fas fa-cogs card-icon text-primary"></i>
-              <h5 class="card-title">Funcionalidades</h5>
-              <p class="card-text">Explore todos os recursos que nossa plataforma oferece.</p>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="col-md-6 col-lg-3 mb-4">
-        <a href="{{BASE}}pages/termos-de-uso.html" class="card-link">
-          <div class="card text-center h-100">
-            <div class="card-body">
-              <i class="fas fa-file-contract card-icon text-success"></i>
-              <h5 class="card-title">Termos de Uso</h5>
-              <p class="card-text">Conheça as regras e diretrizes para usar nossos serviços.</p>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="col-md-6 col-lg-3 mb-4">
-        <a href="{{BASE}}pages/lgpd.html" class="card-link">
-          <div class="card text-center h-100">
-            <div class="card-body">
-              <i class="fas fa-user-shield card-icon text-info"></i>
-              <h5 class="card-title">LGPD</h5>
-              <p class="card-text">Entenda como protegemos e gerenciamos seus dados.</p>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="col-md-6 col-lg-3 mb-4">
-        <a href="{{BASE}}pages/cookies.html" class="card-link">
-          <div class="card text-center h-100">
-            <div class="card-body">
-              <i class="fas fa-cookie-bite card-icon text-warning"></i>
-              <h5 class="card-title">Cookies</h5>
-              <p class="card-text">Veja como utilizamos cookies para melhorar sua experiência.</p>
-            </div>
-          </div>
-        </a>
-      </div>
+    <h1 class="text-center mb-4">Central de Links</h1>
+    <div class="list-group">
+      <a href="{{BASE}}pages/funcionalidades.html" class="list-group-item list-group-item-action">Funcionalidades</a>
+      <a href="{{BASE}}pages/termos-de-uso.html" class="list-group-item list-group-item-action">Termos de Uso</a>
+      <a href="{{BASE}}pages/lgpd.html" class="list-group-item list-group-item-action">LGPD</a>
+      <a href="{{BASE}}pages/cookies.html" class="list-group-item list-group-item-action">Cookies</a>
     </div>
   </main>
 
