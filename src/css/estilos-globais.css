@@ -31,13 +31,13 @@ body {
 
 #mulher {
     position: absolute;
-    top: 136px;
+    top: 60px;
     right: 0;
-    
+    margin-bottom: -60px;
 }
 
 #ajuste {
-    top: 30px;
+    top: 100px;
 }
 
 /* =========================
@@ -357,6 +357,10 @@ footer .social-media-icons li {
     margin: 0 10px;
 }
 
+.social-media-icons a {
+    text-decoration: none;
+}
+
 #dev {
     font-size: 23px;
     color: white;
@@ -414,14 +418,24 @@ footer .row > div ul {
 }
 
 .social-icon {
-    width: 45px;
-    padding-top: 10px;
-    transition: transform 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: #212529;
+    border-radius: 50%;
+    color: white;
+    font-size: 1.7rem;
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
 }
 
 .social-icon:hover {
+    background-color: #ffc107;
+    color: #212529;
     transform: scale(1.1);
 }
+
 
 /* =========================
     Seção de Depoimentos
