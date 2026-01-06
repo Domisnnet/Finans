@@ -18,7 +18,12 @@ Bem-vindo ao **Finans**! Uma interface moderna e intuitiva projetada para transf
 | [![2. Techs](https://img.shields.io/badge/2%20-%20Techs-2196F3)](#tecnologias-utilizadas) | [![6. Repositório](https://img.shields.io/badge/6%20-%20Repo-009688)](#repositorio) | [![10. Código](https://img.shields.io/badge/10%20-%20Código-795548)](#codigo-fonte) |
 | [![3. Acessar](https://img.shields.io/badge/3%20-%20Acessar-FF9800)](#como-acessar) | [![7. Contribuir](https://img.shields.io/badge/7%20-%20Contribuir-3F51B5)](#como-contribuir) | [![11. Créditos](https://img.shields.io/badge/11%20-%20Créditos-607D8B)](#créditos) |
 | [![4. Funções](https://img.shields.io/badge/4%20-%20Funções-9C27B0)](#funcionalidades) | [![8. Roadmap](https://img.shields.io/badge/8%20-%20Roadmap-8E44AD)](#roadmap) | [![12. Licença](https://img.shields.io/badge/12%20-%20Licença-E91E63)](#licenca) |
-| | | [![13. Perfil](https://img.shields.io/badge/13%20-%20Perfil-212121)](#perfil-do-github) |
+
+<div align="center">
+
+[![13. Perfil](https://img.shields.io/badge/13%20-%20Perfil-212121)](#perfil-do-github)
+
+</div>
 
 ---
 
@@ -124,7 +129,7 @@ O futuro do Finans é promissor! Temos um plano claro de novas funcionalidades e
 
 <details>
 <summary><strong>Por que utilizar Bootstrap em vez de Tailwind ou CSS Puro ❓</strong></summary>
-<p>🛠️ <strong>Resposta:</strong> A escolha do Bootstrap foi estratégica para agilizar o desenvolvimento de componentes complexos (como modais e menus colapsáveis) e garantir uma base sólida de acessibilidade e padronização que o framework oferece nativamente.</p>
+<p>🛠️ <strong>Resposta:</strong> A escolha do Bootstrap foi estratégica para agilizar o desenvolvimento de componentes complexos (como modais e menus colapsáveis) e garantirá uma base sólida de acessibilidade e padronização que o framework oferece nativamente.</p>
 </details>
 
 <details>

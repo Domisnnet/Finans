@@ -1,0 +1,19 @@
+{
+  "name": "finans",
+  "version": "1.0.0",
+  "description": "Projeto Finans - um site de gerenciamento financeiro.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Domisnnet/Finans.git"
+  },
+  "author": "DomisDev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Domisnnet/Finans/issues"
+  },
+  "homepage": "https://github.com/Domisnnet/Finans#readme"
+}
