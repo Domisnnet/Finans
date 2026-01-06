@@ -14,14 +14,15 @@ Bem-vindo ao **Finans**! Uma interface moderna e intuitiva projetada para transf
 
 | 📊 O Projeto | 🛠️ Técnico | 🤝 Comunidade |
 | :---: | :---: | :---: |
-| [![1. Sobre](https://img.shields.io/badge/1%20-%20Sobre-4CAF50)](#sobre-o-projeto) | [![5. Destaques](https://img.shields.io/badge/5%20-%20Destaques-607D8B)](#destaques-tecnicos) | [![9. FAQ](https://img.shields.io/badge/9%20-%20FAQ-FFC107)](#faq) |
-| [![2. Techs](https://img.shields.io/badge/2%20-%20Techs-2196F3)](#tecnologias-utilizadas) | [![6. Repositório](https://img.shields.io/badge/6%20-%20Repo-009688)](#repositorio) | [![10. Código](https://img.shields.io/badge/10%20-%20Código-795548)](#codigo-fonte) |
-| [![3. Acessar](https://img.shields.io/badge/3%20-%20Acessar-FF9800)](#como-acessar) | [![7. Contribuir](https://img.shields.io/badge/7%20-%20Contribuir-3F51B5)](#como-contribuir) | [![11. Créditos](https://img.shields.io/badge/11%20-%20Créditos-607D8B)](#créditos) |
-| [![4. Funções](https://img.shields.io/badge/4%20-%20Funções-9C27B0)](#funcionalidades) | [![8. Roadmap](https://img.shields.io/badge/8%20-%20Roadmap-8E44AD)](#roadmap) | [![12. Licença](https://img.shields.io/badge/12%20-%20Licença-E91E63)](#licenca) |
+| [![1. Sobre](https://img.shields.io/badge/1%20-%20Sobre-4CAF50)](#sobre-o-projeto) | [![6. Destaques](https://img.shields.io/badge/6%20-%20Destaques-607D8B)](#destaques-tecnicos) | [![10. FAQ](https://img.shields.io/badge/10%20-%20FAQ-FFC107)](#faq) |
+| [![2. Techs](https://img.shields.io/badge/2%20-%20Techs-2196F3)](#tecnologias-utilizadas) | [![7. Repositório](https://img.shields.io/badge/7%20-%20Repo-009688)](#repositorio) | [![11. Código](https://img.shields.io/badge/11%20-%20Código-795548)](#codigo-fonte) |
+| [![3. Acessar](https://img.shields.io/badge/3%20-%20Acessar-FF9800)](#como-acessar) | [![8. Build](https://img.shields.io/badge/8%20-%20Build-3F51B5)](#instalacao-e-build) | [![12. Créditos](https://img.shields.io/badge/12%20-%20Créditos-607D8B)](#créditos) |
+| [![4. Funções](https://img.shields.io/badge/4%20-%20Funções-9C27B0)](#funcionalidades-principais) | [![9. Contribuir](https://img.shields.io/badge/9%20-%20Contribuir-8E44AD)](#como-contribuir) | [![13. Licença](https://img.shields.io/badge/13%20-%20Licença-E91E63)](#licenca) |
+| [![5. Roadmap](https://img.shields.io/badge/5%20-%20Roadmap-FF9800)](#roadmap-do-projeto) | | |
 
 <div align="center">
 
-[![13. Perfil](https://img.shields.io/badge/13%20-%20Perfil-212121)](#perfil-do-github)
+[![14. Perfil](https://img.shields.io/badge/14%20-%20Perfil-212121)](#perfil-do-github)
 
 </div>
 
@@ -50,7 +51,7 @@ Clique no botão abaixo para testar a interface do Finans em tempo real:
 
 ---
 
-<h2 id="funcionalidades">4. 🧩 Funcionalidades Principais</h2>
+<h2 id="funcionalidades-principais">4. 🧩 Funcionalidades Principais</h2>
 
 | Funcionalidade | Descrição |
 | :--- | :--- |
@@ -62,7 +63,15 @@ Clique no botão abaixo para testar a interface do Finans em tempo real:
 
 ---
 
-<h2 id="destaques-tecnicos">5. 💻 Destaques Técnicos</h2>
+<h2 id="roadmap-do-projeto">5. 🔮 Roadmap do Projeto</h2>
+
+O futuro do Finans é promissor! Temos um plano claro de novas funcionalidades e melhorias. Você pode acompanhar nosso progresso e até mesmo contribuir conferindo nosso quadro de tarefas.
+
+[➡️ **Veja nosso Roadmap completo no arquivo TODO.md**](./TODO.md)
+
+---
+
+<h2 id="destaques-tecnicos">6. 💻 Destaques Técnicos</h2>
 
 ### 📊 Organização de Conteúdo Complexo
 O desafio principal foi estruturar informações densas de forma que não sobrecarreguem o usuário, utilizando **Flexbox** para alinhar cards de resumo financeiro.
@@ -72,7 +81,7 @@ A implementação prioriza o uso das classes utilitárias do Bootstrap para gara
 
 ---
 
-<h2 id="repositorio">6. 📂 Repositório</h2>
+<h2 id="repositorio">7. 📂 Repositório</h2>
 
 O projeto completo, incluindo assets e arquivos de configuração, está disponível para consulta pública. Você pode clonar o projeto localmente para estudo:
 
@@ -83,7 +92,32 @@ $ git clone [https://github.com/Domisnnet/Finans.git](https://github.com/Domisnn
 
 ---
 
-<h2 id="como-contribuir">7. 🤝 Como Contribuir</h2>
+<h2 id="instalacao-e-build">8. 🚀 Instalação e Build</h2>
+
+Este projeto utiliza `npm` para gerenciar dependências de desenvolvimento e automatizar o processo de build. Siga os passos abaixo para gerar uma versão otimizada e pronta para produção.
+
+1.  **Instale as dependências:**
+
+    ```bash
+    npm install
+    ```
+
+2.  **Execute o script de build:**
+
+    ```bash
+    npm run build
+    ```
+
+Este comando irá executar as seguintes tarefas:
+*   Limpar o diretório de produção (`dist`).
+*   Minificar os arquivos HTML, CSS e JavaScript.
+*   Copiar todos os assets (imagens, fontes, etc.) para o diretório `dist`.
+
+O resultado é uma versão de produção do site, totalmente otimizada, na pasta `dist/`.
+
+---
+
+<h2 id="como-contribuir">9. 🤝 Como Contribuir</h2>
 
 Siga os passos abaixo para fortalecer este projeto:
 
@@ -97,15 +131,7 @@ Siga os passos abaixo para fortalecer este projeto:
 
 ---
 
-<h2 id="roadmap">8. 🔮 Roadmap do Projeto</h2>
-
-O futuro do Finans é promissor! Temos um plano claro de novas funcionalidades e melhorias. Você pode acompanhar nosso progresso e até mesmo contribuir conferindo nosso quadro de tarefas.
-
-[➡️ **Veja nosso Roadmap completo no arquivo TODO.md**](./TODO.md)
-
----
-
-<h2 id="faq">9. 🧠 Perguntas Frequentes</h2>
+<h2 id="faq">10. 🧠 Perguntas Frequentes</h2>
 
 <details>
 <summary><strong>Como o Finans me ajuda a economizar ❓</strong></summary>
@@ -139,13 +165,13 @@ O futuro do Finans é promissor! Temos um plano claro de novas funcionalidades e
 
 ---
 
-<h2 id="codigo-fonte">10. 💻 Código Fonte</h2>
+<h2 id="codigo-fonte">11. 💻 Código Fonte</h2>
 
 [![Repositório](https://img.shields.io/badge/Repositório-Domisnnet%2FFinans-1DB954?style=for-the-badge&logo=github)](https://github.com/Domisnnet/Finans)
 
 ---
 
-<h2 id="créditos">11. 📝 Créditos & Reconhecimentos</h2>
+<h2 id="créditos">12. 📝 Créditos & Reconhecimentos</h2>
 
 | Atribuição | Responsável / Recurso | Descrição |
 | :--- | :--- | :--- |
@@ -155,12 +181,12 @@ O futuro do Finans é promissor! Temos um plano claro de novas funcionalidades e
 
 ---
 
-<h2 id="licenca">12. 📄 Licença</h2>
+<h2 id="licenca">13. 📄 Licença</h2>
 
 Este projeto está licenciado sob a [![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Domisnnet/Finans/blob/main/LICENSE)
 
 ---
 
-<h2 id="perfil-do-github">13. 👨‍💻 Perfil do GitHub</h2>
+<h2 id="perfil-do-github">14. 👨‍💻 Perfil do GitHub</h2>
 
 <a href="https://github.com/Domisnnet"> <img src="src/imagens/DomisDev.png" width="120" alt="Acessar perfil GitHub"> </a>
