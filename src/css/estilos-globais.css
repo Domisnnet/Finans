@@ -31,13 +31,12 @@ body {
 
 #mulher {
     position: absolute;
-    top: 60px;
+    top: 136px;
     right: 0;
-    margin-bottom: -60px;
 }
 
 #ajuste {
-    top: 100px;
+    top: 30px;
 }
 
 /* =========================
