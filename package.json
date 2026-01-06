@@ -11,6 +11,8 @@
     "minify:css": "cleancss -o dist/src/css/estilos-globais.css src/css/estilos-globais.css",
     "minify:js": "uglifyjs src/js/carousel-config.js -o dist/src/js/carousel-config.js -c -m && uglifyjs src/js/template-loader.js -o dist/src/js/template-loader.js -c -m",
     "build": "npm-run-all clean create-dirs copy:assets minify:css minify:js minify:html",
+    "firebase-deploy": "echo 'Deploying to Firebase... (This step is handled by the IDE assistant)'",
+    "deploy": "npm-run-all build firebase-deploy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
