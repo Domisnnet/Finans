@@ -3,7 +3,8 @@
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2025 Fonticons, Inc.
  */
-:root, :host {
+:root,
+:host {
   --fa-font-solid: normal 900 1em/1 "Font Awesome 7 Free";
   --fa-font-regular: normal 400 1em/1 "Font Awesome 7 Free";
   --fa-font-light: normal 300 1em/1 "Font Awesome 7 Pro";
@@ -18,7 +19,8 @@
   --fa-font-sharp-light: normal 300 1em/1 "Font Awesome 7 Sharp";
   --fa-font-sharp-thin: normal 100 1em/1 "Font Awesome 7 Sharp";
   --fa-font-sharp-duotone-solid: normal 900 1em/1 "Font Awesome 7 Sharp Duotone";
-  --fa-font-sharp-duotone-regular: normal 400 1em/1 "Font Awesome 7 Sharp Duotone";
+  --fa-font-sharp-duotone-regular: normal 400 1em/1
+    "Font Awesome 7 Sharp Duotone";
   --fa-font-sharp-duotone-light: normal 300 1em/1 "Font Awesome 7 Sharp Duotone";
   --fa-font-sharp-duotone-thin: normal 100 1em/1 "Font Awesome 7 Sharp Duotone";
   --fa-font-slab-regular: normal 400 1em/1 "Font Awesome 7 Slab";
@@ -34,7 +36,8 @@
   --fa-font-chisel-regular: normal 400 1em/1 "Font Awesome 7 Chisel";
   --fa-font-utility-semibold: normal 600 1em/1 "Font Awesome 7 Utility";
   --fa-font-utility-duo-semibold: normal 600 1em/1 "Font Awesome 7 Utility Duo";
-  --fa-font-utility-fill-semibold: normal 600 1em/1 "Font Awesome 7 Utility Fill";
+  --fa-font-utility-fill-semibold: normal 600 1em/1
+    "Font Awesome 7 Utility Fill";
 }
 
 .svg-inline--fa {
@@ -69,7 +72,8 @@
   inset-block-start: 0.25em; /* syncing vertical alignment with Web Font rendering */
 }
 
-.fa-layers-counter, .fa-layers-text {
+.fa-layers-counter,
+.fa-layers-text {
   display: inline-block;
   position: absolute;
   text-align: center;

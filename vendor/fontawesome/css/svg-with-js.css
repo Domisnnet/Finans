@@ -3,7 +3,8 @@
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2025 Fonticons, Inc.
  */
-:root, :host {
+:root,
+:host {
   --fa-font-solid: normal 900 1em/1 "Font Awesome 7 Free";
   --fa-font-regular: normal 400 1em/1 "Font Awesome 7 Free";
   --fa-font-light: normal 300 1em/1 "Font Awesome 7 Pro";
@@ -18,7 +19,8 @@
   --fa-font-sharp-light: normal 300 1em/1 "Font Awesome 7 Sharp";
   --fa-font-sharp-thin: normal 100 1em/1 "Font Awesome 7 Sharp";
   --fa-font-sharp-duotone-solid: normal 900 1em/1 "Font Awesome 7 Sharp Duotone";
-  --fa-font-sharp-duotone-regular: normal 400 1em/1 "Font Awesome 7 Sharp Duotone";
+  --fa-font-sharp-duotone-regular: normal 400 1em/1
+    "Font Awesome 7 Sharp Duotone";
   --fa-font-sharp-duotone-light: normal 300 1em/1 "Font Awesome 7 Sharp Duotone";
   --fa-font-sharp-duotone-thin: normal 100 1em/1 "Font Awesome 7 Sharp Duotone";
   --fa-font-slab-regular: normal 400 1em/1 "Font Awesome 7 Slab";
@@ -34,7 +36,8 @@
   --fa-font-chisel-regular: normal 400 1em/1 "Font Awesome 7 Chisel";
   --fa-font-utility-semibold: normal 600 1em/1 "Font Awesome 7 Utility";
   --fa-font-utility-duo-semibold: normal 600 1em/1 "Font Awesome 7 Utility Duo";
-  --fa-font-utility-fill-semibold: normal 600 1em/1 "Font Awesome 7 Utility Fill";
+  --fa-font-utility-fill-semibold: normal 600 1em/1
+    "Font Awesome 7 Utility Fill";
 }
 
 .svg-inline--fa {
@@ -79,7 +82,8 @@
   inset-block-start: 0.25em; /* syncing vertical alignment with Web Font rendering */
 }
 
-.fa-layers-counter, .fa-layers-text {
+.fa-layers-counter,
+.fa-layers-text {
   display: inline-block;
   position: absolute;
   text-align: center;
@@ -197,39 +201,75 @@
 }
 
 .fa-2xs {
-  font-size: calc(10 / 16 * 1em); /* converts a 10px size into an em-based value that's relative to the scale's 16px base */
-  line-height: calc(1 / 10 * 1em); /* sets the line-height of the icon back to that of it's parent */
-  vertical-align: calc((6 / 10 - 0.375) * 1em); /* vertically centers the icon taking into account the surrounding text's descender */
+  font-size: calc(
+    10 / 16 * 1em
+  ); /* converts a 10px size into an em-based value that's relative to the scale's 16px base */
+  line-height: calc(
+    1 / 10 * 1em
+  ); /* sets the line-height of the icon back to that of it's parent */
+  vertical-align: calc(
+    (6 / 10 - 0.375) * 1em
+  ); /* vertically centers the icon taking into account the surrounding text's descender */
 }
 
 .fa-xs {
-  font-size: calc(12 / 16 * 1em); /* converts a 12px size into an em-based value that's relative to the scale's 16px base */
-  line-height: calc(1 / 12 * 1em); /* sets the line-height of the icon back to that of it's parent */
-  vertical-align: calc((6 / 12 - 0.375) * 1em); /* vertically centers the icon taking into account the surrounding text's descender */
+  font-size: calc(
+    12 / 16 * 1em
+  ); /* converts a 12px size into an em-based value that's relative to the scale's 16px base */
+  line-height: calc(
+    1 / 12 * 1em
+  ); /* sets the line-height of the icon back to that of it's parent */
+  vertical-align: calc(
+    (6 / 12 - 0.375) * 1em
+  ); /* vertically centers the icon taking into account the surrounding text's descender */
 }
 
 .fa-sm {
-  font-size: calc(14 / 16 * 1em); /* converts a 14px size into an em-based value that's relative to the scale's 16px base */
-  line-height: calc(1 / 14 * 1em); /* sets the line-height of the icon back to that of it's parent */
-  vertical-align: calc((6 / 14 - 0.375) * 1em); /* vertically centers the icon taking into account the surrounding text's descender */
+  font-size: calc(
+    14 / 16 * 1em
+  ); /* converts a 14px size into an em-based value that's relative to the scale's 16px base */
+  line-height: calc(
+    1 / 14 * 1em
+  ); /* sets the line-height of the icon back to that of it's parent */
+  vertical-align: calc(
+    (6 / 14 - 0.375) * 1em
+  ); /* vertically centers the icon taking into account the surrounding text's descender */
 }
 
 .fa-lg {
-  font-size: calc(20 / 16 * 1em); /* converts a 20px size into an em-based value that's relative to the scale's 16px base */
-  line-height: calc(1 / 20 * 1em); /* sets the line-height of the icon back to that of it's parent */
-  vertical-align: calc((6 / 20 - 0.375) * 1em); /* vertically centers the icon taking into account the surrounding text's descender */
+  font-size: calc(
+    20 / 16 * 1em
+  ); /* converts a 20px size into an em-based value that's relative to the scale's 16px base */
+  line-height: calc(
+    1 / 20 * 1em
+  ); /* sets the line-height of the icon back to that of it's parent */
+  vertical-align: calc(
+    (6 / 20 - 0.375) * 1em
+  ); /* vertically centers the icon taking into account the surrounding text's descender */
 }
 
 .fa-xl {
-  font-size: calc(24 / 16 * 1em); /* converts a 24px size into an em-based value that's relative to the scale's 16px base */
-  line-height: calc(1 / 24 * 1em); /* sets the line-height of the icon back to that of it's parent */
-  vertical-align: calc((6 / 24 - 0.375) * 1em); /* vertically centers the icon taking into account the surrounding text's descender */
+  font-size: calc(
+    24 / 16 * 1em
+  ); /* converts a 24px size into an em-based value that's relative to the scale's 16px base */
+  line-height: calc(
+    1 / 24 * 1em
+  ); /* sets the line-height of the icon back to that of it's parent */
+  vertical-align: calc(
+    (6 / 24 - 0.375) * 1em
+  ); /* vertically centers the icon taking into account the surrounding text's descender */
 }
 
 .fa-2xl {
-  font-size: calc(32 / 16 * 1em); /* converts a 32px size into an em-based value that's relative to the scale's 16px base */
-  line-height: calc(1 / 32 * 1em); /* sets the line-height of the icon back to that of it's parent */
-  vertical-align: calc((6 / 32 - 0.375) * 1em); /* vertically centers the icon taking into account the surrounding text's descender */
+  font-size: calc(
+    32 / 16 * 1em
+  ); /* converts a 32px size into an em-based value that's relative to the scale's 16px base */
+  line-height: calc(
+    1 / 32 * 1em
+  ); /* sets the line-height of the icon back to that of it's parent */
+  vertical-align: calc(
+    (6 / 32 - 0.375) * 1em
+  ); /* vertically centers the icon taking into account the surrounding text's descender */
 }
 
 .fa-width-auto {
@@ -304,7 +344,10 @@
   animation-direction: var(--fa-animation-direction, normal);
   animation-duration: var(--fa-animation-duration, 1s);
   animation-iteration-count: var(--fa-animation-iteration-count, infinite);
-  animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.28, 0.84, 0.42, 1));
+  animation-timing-function: var(
+    --fa-animation-timing,
+    cubic-bezier(0.28, 0.84, 0.42, 1)
+  );
 }
 
 .fa-fade {
@@ -313,7 +356,10 @@
   animation-direction: var(--fa-animation-direction, normal);
   animation-duration: var(--fa-animation-duration, 1s);
   animation-iteration-count: var(--fa-animation-iteration-count, infinite);
-  animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+  animation-timing-function: var(
+    --fa-animation-timing,
+    cubic-bezier(0.4, 0, 0.6, 1)
+  );
 }
 
 .fa-beat-fade {
@@ -322,7 +368,10 @@
   animation-direction: var(--fa-animation-direction, normal);
   animation-duration: var(--fa-animation-duration, 1s);
   animation-iteration-count: var(--fa-animation-iteration-count, infinite);
-  animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+  animation-timing-function: var(
+    --fa-animation-timing,
+    cubic-bezier(0.4, 0, 0.6, 1)
+  );
 }
 
 .fa-flip {
@@ -380,7 +429,8 @@
   }
 }
 @keyframes fa-beat {
-  0%, 90% {
+  0%,
+  90% {
     transform: scale(1);
   }
   45% {
@@ -392,13 +442,25 @@
     transform: scale(1, 1) translateY(0);
   }
   10% {
-    transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+    transform: scale(
+        var(--fa-bounce-start-scale-x, 1.1),
+        var(--fa-bounce-start-scale-y, 0.9)
+      )
+      translateY(0);
   }
   30% {
-    transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+    transform: scale(
+        var(--fa-bounce-jump-scale-x, 0.9),
+        var(--fa-bounce-jump-scale-y, 1.1)
+      )
+      translateY(var(--fa-bounce-height, -0.5em));
   }
   50% {
-    transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+    transform: scale(
+        var(--fa-bounce-land-scale-x, 1.05),
+        var(--fa-bounce-land-scale-y, 0.95)
+      )
+      translateY(0);
   }
   57% {
     transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
@@ -416,7 +478,8 @@
   }
 }
 @keyframes fa-beat-fade {
-  0%, 100% {
+  0%,
+  100% {
     opacity: var(--fa-beat-fade-opacity, 0.4);
     transform: scale(1);
   }
@@ -427,7 +490,12 @@
 }
 @keyframes fa-flip {
   50% {
-    transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+    transform: rotate3d(
+      var(--fa-flip-x, 0),
+      var(--fa-flip-y, 1),
+      var(--fa-flip-z, 0),
+      var(--fa-flip-angle, -180deg)
+    );
   }
 }
 @keyframes fa-shake {
@@ -437,10 +505,12 @@
   4% {
     transform: rotate(15deg);
   }
-  8%, 24% {
+  8%,
+  24% {
     transform: rotate(-18deg);
   }
-  12%, 28% {
+  12%,
+  28% {
     transform: rotate(18deg);
   }
   16% {
@@ -455,7 +525,8 @@
   36% {
     transform: rotate(12deg);
   }
-  40%, 100% {
+  40%,
+  100% {
     transform: rotate(0deg);
   }
 }

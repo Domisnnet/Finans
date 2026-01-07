@@ -3,7 +3,8 @@
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2025 Fonticons, Inc.
  */
-:root, :host {
+:root,
+:host {
   --fa-family-brands: "Font Awesome 7 Brands";
   --fa-font-brands: normal 400 1em/1 var(--fa-family-brands);
 }
