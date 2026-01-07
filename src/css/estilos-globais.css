@@ -61,6 +61,7 @@ body {
 
 .divisor {
   width: 1px;
+  height: 16px;
   background: white;
   margin: 12px 15px;
 }
@@ -293,12 +294,6 @@ nav.navbar {
   border-color: rgba(255, 255, 255, 0.5);
   padding: 15px;
   margin: 20px;
-}
-
-.divisor {
-  width: 1px;
-  background: white;
-  margin: 12px 15px;
 }
 
 /* =========================
