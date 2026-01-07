@@ -10,7 +10,7 @@
     "copy:assets": "cpx \"src/imagens/**/*\" \"dist/src/imagens\" && cpx \"vendor/**/*\" \"dist/vendor\" && cpx \"templates/**/*\" \"dist/templates\"",
     "minify:html": "html-minifier --input-dir . --output-dir dist --file-ext html --remove-comments --collapse-whitespace index.html pages/*.html",
     "minify:css": "cleancss -o dist/src/css/estilos-globais.css src/css/estilos-globais.css",
-    "minify:js": "uglifyjs src/js/template-loader.js -o dist/src/js/template-loader.js -c -m",
+    "minify:js": "uglifyjs src/js/carousel-config.js src/js/template-loader.js -o dist/src/js/app.min.js -c -m",
     "clean:maps": "rimraf dist/**/*.map",
     "build": "npm-run-all clean create-dirs copy:assets minify:html minify:css minify:js clean:maps",
     "firebase-deploy": "echo 'Deploying to Firebase... (This step is handled by the IDE assistant)'",
