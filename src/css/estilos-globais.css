@@ -1,5 +1,5 @@
 /* =========================
-   Reset e Base 
+  Reset e Base 
 ========================= */
 * {
   padding: 0;
@@ -39,7 +39,7 @@ body {
 }
 
 /* =========================
-   Seção de Cabeçalho
+  Seção de Cabeçalho
 ========================= */
 #home {
   background: #ffc107;
@@ -66,7 +66,7 @@ body {
 }
 
 /* =========================
-   Seções de Conteúdo
+  Seções de Conteúdo
 ========================= */
 .caixa {
   padding: 40px 0;
@@ -113,7 +113,7 @@ body {
 }
 
 /* =========================
-   Estilos do Acordeão de FAQ
+  Estilos do Acordeão de FAQ
 ========================= */
 #faqAccordion .card {
   background-color: #282828;
@@ -171,7 +171,7 @@ body {
 }
 
 /* =========================
-    Estilos da Página de Planos
+  Estilos da Página de Planos
 ========================= */
 .card-plano {
   background-color: #282828;
@@ -179,9 +179,7 @@ body {
   border-radius: 8px;
   display: flex;
   flex-direction: column;
-  transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card-plano:hover {
@@ -227,16 +225,14 @@ body {
 }
 
 /* =========================
-   Estilos da Seção de Dúvidas
+  Estilos da Seção de Dúvidas
 ========================= */
 
 #duvidas .card {
   background-color: #282828;
   border: 1px solid #444;
   border-radius: 8px;
-  transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 #duvidas .card:hover {
@@ -267,7 +263,7 @@ body {
 }
 
 /* =========================
-   Layout de rodapé fixo
+  Layout de rodapé fixo
 ========================= */
 body:not(#home) {
   display: flex;
@@ -276,7 +272,7 @@ body:not(#home) {
 }
 
 /* =========================
-   Navbar
+  Navbar
 ========================= */
 nav.navbar {
   padding: 15px 0;
@@ -306,7 +302,7 @@ nav.navbar {
 }
 
 /* =========================
-   Complementos
+  Complementos
 ========================= */
 main .link-interno {
   color: #1db954;
@@ -318,7 +314,7 @@ main .link-interno:hover {
 }
 
 /* =========================
-   Footer
+  Footer
 ========================= */
 footer {
   background: #000;
@@ -410,7 +406,7 @@ footer .row > div ul {
 }
 
 /* =========================
-   Ícones e utilidades
+  Ícones e utilidades
 ========================= */
 .externo::after {
   content: "\1F517";
@@ -436,10 +432,7 @@ footer .row > div ul {
   border-radius: 50%;
   color: white;
   font-size: 1.7rem;
-  transition:
-    transform 0.3s ease,
-    background-color 0.3s ease,
-    color 0.3s ease;
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
 }
 
 .social-icon:hover {
@@ -449,7 +442,7 @@ footer .row > div ul {
 }
 
 /* =========================
-    Seção de Depoimentos
+  Seção de Depoimentos
 ========================= */
 #depoimentos .depoimento {
   background-color: #282828;
@@ -459,9 +452,7 @@ footer .row > div ul {
   display: flex;
   flex-direction: column;
   height: 100%;
-  transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 #depoimentos .depoimento:hover {
@@ -512,7 +503,7 @@ footer .row > div ul {
 
 #depoimentos .carousel-control-prev-icon,
 #depoimentos .carousel-control-next-icon {
-  display: none; /* Hide default icons */
+  display: none; 
 }
 
 #depoimentos .fa-chevron-left,
@@ -522,7 +513,7 @@ footer .row > div ul {
 }
 
 /* =========================
-   Seção de Chamada para Ação
+  Seção de Chamada para Ação
 ========================= */
 .cta-section {
   background: #ffc107;
@@ -551,7 +542,7 @@ footer .row > div ul {
 }
 
 /* =========================
-   Media Queries
+  Media Queries
 ========================= */
 @media (min-width: 768px) {
   footer .row > div {
