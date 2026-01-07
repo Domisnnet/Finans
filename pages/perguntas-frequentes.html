@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Política de Privacidade do Finans.">
-  <title>Finans - Política de Privacidade</title>
+  <meta name="description" content="Encontre respostas para as perguntas mais comuns sobre o Finans. Saiba mais sobre privacidade, funcionalidades e como o aplicativo funciona.">
+  <title>Finans - Perguntas Frequentes (FAQ)</title>
   <link rel="icon" href="../src/imagens/favicon.ico">
   <link rel="stylesheet" href="../vendor/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="../vendor/fontawesome/css/all.min.css">
-  <link rel="stylesheet" type="text/css" href="../src/css/estilos-globais.css">
+  <link rel="stylesheet" type="text/css" href="../src/css/estilos-globais.css?v=1.1">
 </head>
 <body data-base="../">
   <div id="header-placeholder"></div>
@@ -16,24 +16,86 @@
     <div class="container">
       <div class="conteudo-interno">
         <div class="row">
-          <h1>Perguntas Frequentes</h1>
-          <section>
-            <h4>O Finans é gratuito?</h4>
-            <p>
-              O Finans possui um modelo conceitual com planos simulados para fins educacionais e demonstrativos.
-            </p>
-
-            <h4>Meus dados estão seguros?</h4>
-            <p>
-              Este projeto demonstra boas práticas de organização e segurança, mas não realiza armazenamento real de
-              dados sensíveis.
-            </p>
-
-            <h4>Posso usar o Finans em qualquer dispositivo?</h4>
-            <p>
-              Sim. O layout é responsivo e preparado para desktop e dispositivos móveis.
-            </p>
-          </section>
+          <div class="col-12 text-center mb-5">
+            <h1 class="display-4">Perguntas Frequentes</h1>
+            <p class="lead">Tudo o que você precisa saber para começar a usar o Finans.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-10 offset-md-1">
+            <div class="accordion" id="faqAccordion">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      O que é o Finans e para quem ele é?
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#faqAccordion">
+                  <div class="card-body">
+                    O Finans é uma aplicação web de código aberto, criada para ajudar pessoas a assumir o controle de suas finanças pessoais. Ele é ideal para quem busca uma ferramenta simples, visual e, acima de tudo, privada para registrar e analisar despesas e receitas, sem depender de planilhas complexas ou de compartilhar seus dados com grandes corporações.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Meus dados financeiros estão seguros? Onde eles são armazenados?
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqAccordion">
+                  <div class="card-body">
+                    <strong>Sim, sua privacidade é a nossa maior prioridade.</strong> Todos os seus dados financeiros são armazenados <strong>exclusivamente no seu próprio dispositivo</strong>, utilizando a tecnologia de armazenamento local do navegador (Local Storage). Isso significa que nós, desenvolvedores do Finans, nunca temos acesso às suas informações. Seus dados não são enviados para nenhum servidor na nuvem.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      O Finans é realmente gratuito?
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqAccordion">
+                  <div class="card-body">
+                    Sim, o Finans é 100% gratuito e de código aberto. Ele foi desenvolvido como um projeto para demonstrar a criação de uma aplicação web completa e funcional, com foco em boas práticas de programação e na privacidade do usuário. Não há taxas escondidas ou planos premium.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingFour">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      O que acontece se eu limpar os dados do meu navegador?
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#faqAccordion">
+                  <div class="card-body">
+                    Como os dados são armazenados localmente, <strong>se você limpar o cache e os dados do seu navegador, suas informações do Finans serão permanentemente apagadas.</strong> Recomendamos que você faça backups regulares de suas informações. Estamos trabalhando em uma funcionalidade de exportação de dados para facilitar esse processo.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingFive">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                      Posso usar o Finans em múltiplos dispositivos?
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#faqAccordion">
+                  <div class="card-body">
+                    Atualmente, como os dados são armazenados localmente, eles não são sincronizados entre diferentes dispositivos. O que você registrar no seu computador não aparecerá no seu celular, e vice-versa. A sincronização segura é um recurso complexo que está sendo considerado para o futuro do projeto (veja nosso <a class="link-interno" href="roadmap.html">Roadmap</a>).
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

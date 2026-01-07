@@ -600,3 +600,8 @@ footer .row > div ul {
     display: none;
   }
 }
+
+.conteudo-interno .card {
+    background-color: #282828;
+    border: 1px solid #444;
+}
